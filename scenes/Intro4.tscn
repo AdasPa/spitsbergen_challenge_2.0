@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://animations/Intro4.tres" type="SpriteFrames" id=1]
+[ext_resource path="res://assets/buttons/DalejButton.png" type="Texture" id=2]
+[ext_resource path="res://scripts/Intro4.cs" type="Script" id=3]
+
+[node name="Node" type="Node"]
+script = ExtResource( 3 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 720, 512 )
+frames = ExtResource( 1 )
+animation = "Intro4"
+
+[node name="DalejButton" type="TextureButton" parent="AnimatedSprite"]
+margin_left = -120.0
+margin_top = 280.0
+margin_right = 120.0
+margin_bottom = 400.0
+texture_normal = ExtResource( 2 )

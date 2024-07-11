@@ -1,0 +1,107 @@
+[gd_scene load_steps=27 format=2]
+
+[ext_resource path="res://assets/buttons/GeografiaButton=Press.png" type="Texture" id=1]
+[ext_resource path="res://assets/buttons/GeografiaButton=Default.png" type="Texture" id=2]
+[ext_resource path="res://assets/buttons/HistoriaButton=Default.png" type="Texture" id=3]
+[ext_resource path="res://scenes/MoneyCounter.tscn" type="PackedScene" id=4]
+[ext_resource path="res://assets/buttons/HistoriaButton=Hover.png" type="Texture" id=5]
+[ext_resource path="res://assets/buttons/HistoriaButton=Press.png" type="Texture" id=6]
+[ext_resource path="res://assets/buttons/NaukaButton=Done.png" type="Texture" id=7]
+[ext_resource path="res://assets/buttons/GeografiaButton=Hover.png" type="Texture" id=8]
+[ext_resource path="res://assets/buttons/RoslinyButton=Done.png" type="Texture" id=9]
+[ext_resource path="res://assets/buttons/RoslinyButton=Press.png" type="Texture" id=10]
+[ext_resource path="res://assets/buttons/NaukaButton=Hover.png" type="Texture" id=11]
+[ext_resource path="res://assets/buttons/RoslinyButton=Hover.png" type="Texture" id=12]
+[ext_resource path="res://assets/buttons/RoslinyButton=Default.png" type="Texture" id=13]
+[ext_resource path="res://assets/buttons/GeografiaButton=Done.png" type="Texture" id=14]
+[ext_resource path="res://assets/buttons/ZwierzetaButton=Hover.png" type="Texture" id=15]
+[ext_resource path="res://assets/buttons/NaukaButton=Press.png" type="Texture" id=16]
+[ext_resource path="res://assets/buttons/ZwierzetaButton=Press.png" type="Texture" id=17]
+[ext_resource path="res://assets/buttons/NaukaButton=Default.png" type="Texture" id=18]
+[ext_resource path="res://assets/buttons/ZwierzetaButton=Default.png" type="Texture" id=19]
+[ext_resource path="res://assets/buttons/ZwierzetaButton=Done.png" type="Texture" id=20]
+[ext_resource path="res://assets/properties/Property 1=Disabled.png" type="Texture" id=21]
+[ext_resource path="res://assets/properties/Property 1=Default.png" type="Texture" id=22]
+[ext_resource path="res://assets/properties/Property 1=Press.png" type="Texture" id=23]
+[ext_resource path="res://assets/properties/Property 1=Hover.png" type="Texture" id=24]
+[ext_resource path="res://scripts/BazaWiedzy.cs" type="Script" id=25]
+[ext_resource path="res://assets/backgrounds/BazaWiedzyBackground.png" type="Texture" id=26]
+
+[node name="Node" type="Node"]
+script = ExtResource( 25 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 720, 512 )
+texture = ExtResource( 26 )
+
+[node name="HistoriaButton" type="TextureButton" parent="Sprite"]
+margin_left = -640.0
+margin_top = -248.0
+margin_right = -240.0
+margin_bottom = 72.0
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 6 )
+texture_hover = ExtResource( 5 )
+texture_disabled = ExtResource( 7 )
+
+[node name="GeografiaButton" type="TextureButton" parent="Sprite"]
+margin_left = -200.0
+margin_top = -248.0
+margin_right = 200.0
+margin_bottom = 72.0
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 1 )
+texture_hover = ExtResource( 8 )
+texture_disabled = ExtResource( 14 )
+
+[node name="ZwierzetaButton" type="TextureButton" parent="Sprite"]
+margin_left = 240.0
+margin_top = -248.0
+margin_right = 640.0
+margin_bottom = 72.0
+texture_normal = ExtResource( 19 )
+texture_pressed = ExtResource( 17 )
+texture_hover = ExtResource( 15 )
+texture_disabled = ExtResource( 20 )
+
+[node name="NaukaButton" type="TextureButton" parent="Sprite"]
+margin_left = -640.0
+margin_top = 108.0
+margin_right = -240.0
+margin_bottom = 428.0
+texture_normal = ExtResource( 18 )
+texture_pressed = ExtResource( 16 )
+texture_hover = ExtResource( 11 )
+texture_disabled = ExtResource( 7 )
+
+[node name="RoslinyButton" type="TextureButton" parent="Sprite"]
+margin_left = -200.0
+margin_top = 108.0
+margin_right = 200.0
+margin_bottom = 428.0
+texture_normal = ExtResource( 13 )
+texture_pressed = ExtResource( 10 )
+texture_hover = ExtResource( 12 )
+texture_disabled = ExtResource( 9 )
+
+[node name="TextureButton" type="TextureButton" parent="Sprite"]
+margin_left = 240.0
+margin_top = 108.0
+margin_right = 640.0
+margin_bottom = 428.0
+texture_normal = ExtResource( 18 )
+texture_pressed = ExtResource( 16 )
+texture_hover = ExtResource( 11 )
+texture_disabled = ExtResource( 7 )
+
+[node name="BackButton" type="TextureButton" parent="Sprite"]
+margin_left = -640.0
+margin_top = -424.0
+margin_right = -584.0
+margin_bottom = -368.0
+texture_normal = ExtResource( 22 )
+texture_pressed = ExtResource( 23 )
+texture_hover = ExtResource( 24 )
+texture_disabled = ExtResource( 21 )
+
+[node name="Control" parent="." instance=ExtResource( 4 )]
