@@ -1,0 +1,158 @@
+[gd_scene load_steps=24 format=2]
+
+[ext_resource path="res://fonts/PressStart2P.tres" type="DynamicFont" id=1]
+[ext_resource path="res://scenes/MoneyCounter.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/buttons/QuizyDefault.png" type="Texture" id=3]
+[ext_resource path="res://assets/properties/Property 1=Disabled.png" type="Texture" id=4]
+[ext_resource path="res://assets/properties/Property 1=Press.png" type="Texture" id=5]
+[ext_resource path="res://assets/properties/Property 1=Default.png" type="Texture" id=6]
+[ext_resource path="res://assets/backgrounds/background.png" type="Texture" id=7]
+[ext_resource path="res://assets/properties/Property 1=Hover.png" type="Texture" id=8]
+[ext_resource path="res://scripts/Zadania.cs" type="Script" id=9]
+[ext_resource path="res://assets/buttons/QuizyDone.png" type="Texture" id=10]
+[ext_resource path="res://assets/buttons/MemoryDone.png" type="Texture" id=11]
+[ext_resource path="res://assets/buttons/KrzyzowkiDefault.png" type="Texture" id=12]
+[ext_resource path="res://assets/buttons/QuizyPress.png" type="Texture" id=13]
+[ext_resource path="res://assets/buttons/QuizyHover.png" type="Texture" id=14]
+[ext_resource path="res://assets/buttons/KrzyzowkiDone.png" type="Texture" id=15]
+[ext_resource path="res://assets/buttons/MemoryDefault.png" type="Texture" id=16]
+[ext_resource path="res://assets/buttons/MemoryHover.png" type="Texture" id=17]
+[ext_resource path="res://assets/buttons/KrzyzowkiHover.png" type="Texture" id=18]
+[ext_resource path="res://assets/buttons/KrzyzowkiPress.png" type="Texture" id=19]
+[ext_resource path="res://assets/buttons/MemoryPress.png" type="Texture" id=20]
+[ext_resource path="res://assets/buttons/StrzelnicaDefault.png" type="Texture" id=21]
+[ext_resource path="res://assets/buttons/StrzelnicaPress.png" type="Texture" id=22]
+[ext_resource path="res://assets/buttons/StrzelnicaHover.png" type="Texture" id=23]
+
+[node name="Node" type="Node"]
+script = ExtResource( 9 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 720, 512 )
+texture = ExtResource( 7 )
+
+[node name="ColorRect3" type="ColorRect" parent="Sprite"]
+margin_left = -640.0
+margin_top = 152.0
+margin_right = -216.0
+margin_bottom = 160.0
+
+[node name="MoneyCounter" parent="Sprite" instance=ExtResource( 2 )]
+margin_left = -720.0
+margin_top = -512.0
+margin_right = -680.0
+margin_bottom = -472.0
+
+[node name="ColorRect" type="ColorRect" parent="Sprite"]
+margin_left = -640.0
+margin_top = -240.0
+margin_right = -120.0
+margin_bottom = -232.0
+
+[node name="ColorRect2" type="ColorRect" parent="Sprite"]
+margin_left = 120.0
+margin_top = -240.0
+margin_right = 640.0
+margin_bottom = -232.0
+
+[node name="ColorRect4" type="ColorRect" parent="Sprite"]
+margin_left = 216.0
+margin_top = 152.0
+margin_right = 640.0
+margin_bottom = 160.0
+
+[node name="Label" type="Label" parent="Sprite"]
+margin_left = -96.0
+margin_top = -248.0
+margin_right = 96.0
+margin_bottom = -216.0
+custom_fonts/font = ExtResource( 1 )
+text = "WIEDZA"
+
+[node name="Label2" type="Label" parent="Sprite"]
+margin_left = -192.0
+margin_top = 144.0
+margin_right = 192.0
+margin_bottom = 176.0
+custom_fonts/font = ExtResource( 1 )
+text = "UMIEJĘTNOŚCI"
+
+[node name="Description" type="ColorRect" parent="."]
+margin_left = 80.0
+margin_top = 88.0
+margin_right = 952.0
+margin_bottom = 184.0
+color = Color( 1, 1, 1, 0 )
+
+[node name="Label" type="Label" parent="Description"]
+margin_left = 80.0
+margin_top = 16.0
+margin_right = 208.0
+margin_bottom = 48.0
+custom_fonts/font = ExtResource( 1 )
+text = "ZADANIA"
+
+[node name="BackButton" type="TextureButton" parent="Description"]
+margin_right = 40.0
+margin_bottom = 40.0
+texture_normal = ExtResource( 6 )
+texture_pressed = ExtResource( 5 )
+texture_hover = ExtResource( 8 )
+texture_disabled = ExtResource( 4 )
+
+[node name="QuizyButton" type="TextureButton" parent="."]
+margin_left = 80.0
+margin_top = 336.0
+margin_right = 480.0
+margin_bottom = 576.0
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 13 )
+texture_hover = ExtResource( 14 )
+texture_disabled = ExtResource( 10 )
+
+[node name="MemoryButton" type="TextureButton" parent="."]
+margin_left = 520.0
+margin_top = 336.0
+margin_right = 920.0
+margin_bottom = 576.0
+texture_normal = ExtResource( 16 )
+texture_pressed = ExtResource( 20 )
+texture_hover = ExtResource( 17 )
+texture_disabled = ExtResource( 11 )
+
+[node name="KrzyzowkiButton" type="TextureButton" parent="."]
+margin_left = 960.0
+margin_top = 336.0
+margin_right = 1360.0
+margin_bottom = 576.0
+texture_normal = ExtResource( 12 )
+texture_pressed = ExtResource( 19 )
+texture_hover = ExtResource( 18 )
+texture_disabled = ExtResource( 15 )
+
+[node name="StrzelnicaButton" type="TextureButton" parent="."]
+margin_left = 80.0
+margin_top = 728.0
+margin_right = 480.0
+margin_bottom = 968.0
+texture_normal = ExtResource( 21 )
+texture_pressed = ExtResource( 22 )
+texture_hover = ExtResource( 23 )
+
+[node name="LawinaButton" type="TextureButton" parent="."]
+margin_left = 520.0
+margin_top = 728.0
+margin_right = 920.0
+margin_bottom = 968.0
+texture_normal = ExtResource( 21 )
+texture_pressed = ExtResource( 22 )
+texture_hover = ExtResource( 23 )
+
+[node name="RybakButton" type="TextureButton" parent="."]
+margin_left = 960.0
+margin_top = 728.0
+margin_right = 1360.0
+margin_bottom = 968.0
+texture_normal = ExtResource( 21 )
+texture_pressed = ExtResource( 22 )
+texture_hover = ExtResource( 23 )

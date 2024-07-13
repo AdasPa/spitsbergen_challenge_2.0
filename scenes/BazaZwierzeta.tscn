@@ -8,7 +8,7 @@
 [ext_resource path="res://assets/properties/Property 1=Default.png" type="Texture" id=6]
 [ext_resource path="res://assets/backgrounds/background.png" type="Texture" id=7]
 [ext_resource path="res://assets/properties/Property 1=Hover.png" type="Texture" id=8]
-[ext_resource path="res://scripts/BazaHistoria.cs" type="Script" id=9]
+[ext_resource path="res://scripts/BazaZwierzeta.cs" type="Script" id=9]
 
 [node name="Node" type="Node"]
 script = ExtResource( 9 )
@@ -38,7 +38,7 @@ margin_top = 64.0
 margin_right = 168.0
 margin_bottom = 78.0
 custom_fonts/font = ExtResource( 1 )
-text = "HISTORIA"
+text = "ZWIERZĘTA"
 
 [node name="ColorRect" type="ColorRect" parent="Description"]
 margin_left = 80.0

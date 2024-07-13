@@ -1,0 +1,98 @@
+[gd_scene load_steps=21 format=2]
+
+[ext_resource path="res://assets/buttons/SsakiDefault.png" type="Texture" id=1]
+[ext_resource path="res://assets/buttons/SsakiPress.png" type="Texture" id=2]
+[ext_resource path="res://assets/buttons/PtakiDone.png" type="Texture" id=3]
+[ext_resource path="res://scenes/MoneyCounter.tscn" type="PackedScene" id=4]
+[ext_resource path="res://assets/buttons/SsakiHover.png" type="Texture" id=5]
+[ext_resource path="res://assets/buttons/PtakiHover.png" type="Texture" id=6]
+[ext_resource path="res://assets/buttons/SsakiDone.png" type="Texture" id=7]
+[ext_resource path="res://assets/buttons/PtakiDefault.png" type="Texture" id=8]
+[ext_resource path="res://assets/buttons/RoslinyButton=Done.png" type="Texture" id=9]
+[ext_resource path="res://assets/buttons/RoslinyButton=Press.png" type="Texture" id=10]
+[ext_resource path="res://assets/buttons/PtakiPress.png" type="Texture" id=11]
+[ext_resource path="res://assets/buttons/RoslinyButton=Hover.png" type="Texture" id=12]
+[ext_resource path="res://assets/buttons/RoslinyButton=Default.png" type="Texture" id=13]
+[ext_resource path="res://scripts/Memory.cs" type="Script" id=14]
+[ext_resource path="res://assets/properties/Property 1=Disabled.png" type="Texture" id=21]
+[ext_resource path="res://assets/properties/Property 1=Default.png" type="Texture" id=22]
+[ext_resource path="res://assets/properties/Property 1=Press.png" type="Texture" id=23]
+[ext_resource path="res://assets/properties/Property 1=Hover.png" type="Texture" id=24]
+[ext_resource path="res://fonts/PressStart2P.tres" type="DynamicFont" id=26]
+[ext_resource path="res://assets/backgrounds/background.png" type="Texture" id=31]
+
+[node name="Node" type="Node"]
+script = ExtResource( 14 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 720, 512 )
+texture = ExtResource( 31 )
+
+[node name="Control" parent="." instance=ExtResource( 4 )]
+
+[node name="Description" type="ColorRect" parent="."]
+margin_left = 80.0
+margin_top = 88.0
+margin_right = 952.0
+margin_bottom = 184.0
+color = Color( 1, 1, 1, 0 )
+
+[node name="Label" type="Label" parent="Description"]
+margin_left = 80.0
+margin_top = 16.0
+margin_right = 208.0
+margin_bottom = 48.0
+custom_fonts/font = ExtResource( 26 )
+text = "ZADANIA"
+
+[node name="Label2" type="Label" parent="Description"]
+margin_left = 128.0
+margin_top = 64.0
+margin_right = 168.0
+margin_bottom = 78.0
+custom_fonts/font = ExtResource( 26 )
+text = "MEMORY"
+
+[node name="ColorRect" type="ColorRect" parent="Description"]
+margin_left = 80.0
+margin_top = 64.0
+margin_right = 104.0
+margin_bottom = 96.0
+
+[node name="BackButton" type="TextureButton" parent="Description"]
+margin_right = 40.0
+margin_bottom = 40.0
+texture_normal = ExtResource( 22 )
+texture_pressed = ExtResource( 23 )
+texture_hover = ExtResource( 24 )
+texture_disabled = ExtResource( 21 )
+
+[node name="SsakiButton" type="TextureButton" parent="."]
+margin_left = 80.0
+margin_top = 440.0
+margin_right = 480.0
+margin_bottom = 760.0
+texture_normal = ExtResource( 1 )
+texture_pressed = ExtResource( 2 )
+texture_hover = ExtResource( 5 )
+texture_disabled = ExtResource( 7 )
+
+[node name="PtakiButton" type="TextureButton" parent="."]
+margin_left = 520.0
+margin_top = 440.0
+margin_right = 920.0
+margin_bottom = 760.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 11 )
+texture_hover = ExtResource( 6 )
+texture_disabled = ExtResource( 3 )
+
+[node name="RoslinyButton" type="TextureButton" parent="."]
+margin_left = 960.0
+margin_top = 440.0
+margin_right = 1360.0
+margin_bottom = 584.0
+texture_normal = ExtResource( 13 )
+texture_pressed = ExtResource( 10 )
+texture_hover = ExtResource( 12 )
+texture_disabled = ExtResource( 9 )
