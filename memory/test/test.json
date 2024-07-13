@@ -1,0 +1,9 @@
+[
+        { "image": "res://memory/test/czlowiekCard.png", "text": "res://memory/test/czlowiekText.png" , "name": "czlowiek"},
+        { "image": "res://memory/test/lisCard.png", "text": "res://memory/test/lisText.png" , "name": "lis"},
+        { "image": "res://memory/test/niedzwiedzCard.png", "text": "res://memory/test/niedzwiedzText.png" , "name": "niedzwiedz"},
+        { "image": "res://memory/test/fokaCard.png", "text": "res://memory/test/fokaText.png" , "name": "foka"},
+        { "image": "res://memory/test/morsCard.png", "text": "res://memory/test/morsText.png" , "name": "mors"},
+        { "image": "res://memory/test/reniferCard.png", "text": "res://memory/test/reniferText.png" , "name": "renifer"}
+]
+
