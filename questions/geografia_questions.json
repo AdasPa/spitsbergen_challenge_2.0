@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Która planeta jest najbliższa Słońcu?",
+        "answers": ["Mars", "Ziemia", "Merkury", "Wenus"],
+        "correct": 2
+    },
+    {
+        "question": "Która planeta jest znana jako Czerwona Planeta?",
+        "answers": ["Mars", "Jowisz", "Saturn", "Wenus"],
+        "correct": 0
+    },
+    {
+        "question": "Który obiekt w kosmosie jest źródłem światła dla Ziemi?",
+        "answers": ["Księżyc", "Mars", "Słońce", "Kometa"],
+        "correct": 2
+    },
+    {
+        "question": "Jak nazywa się naturalny satelita Ziemi?",
+        "answers": ["Mars", "Słońce", "Księżyc", "Pluton"],
+        "correct": 2
+    },
+    {
+        "question": "Która planeta ma największą ilość pierścieni?",
+        "answers": ["Jowisz", "Saturn", "Uran", "Neptun"],
+        "correct": 1
+    },
+    {
+        "question": "Kto był pierwszym człowiekiem na Księżycu?",
+        "answers": ["Yuri Gagarin", "Buzz Aldrin", "Neil Armstrong", "Michael Collins"],
+        "correct": 2
+    },
+    {
+        "question": "Która planeta jest znana z Wielkiej Czerwonej Plamy?",
+        "answers": ["Mars", "Jowisz", "Saturn", "Uran"],
+        "correct": 1
+    },
+    {
+        "question": "Która planeta jest największa w Układzie Słonecznym?",
+        "answers": ["Jowisz", "Saturn", "Uran", "Neptun"],
+        "correct": 0
+    },
+    {
+        "question": "Jak nazywa się gwiazda najbliższa Ziemi?",
+        "answers": ["Proxima Centauri", "Sirius", "Alpha Centauri", "Słońce"],
+        "correct": 3
+    },
+    {
+        "question": "Która planeta jest znana jako Błękitna Planeta?",
+        "answers": ["Mars", "Jowisz", "Ziemia", "Wenus"],
+        "correct": 2
+    },
+    {
+        "question": "Która misja kosmiczna jako pierwsza wylądowała na Księżycu?",
+        "answers": ["Apollo 11", "Sputnik 1", "Viking 1", "Voyager 1"],
+        "correct": 0
+    },
+    {
+        "question": "Który teleskop kosmiczny jest używany do obserwacji odległych galaktyk?",
+        "answers": ["Voyager 1", "Hubble", "Galileo", "Cassini"],
+        "correct": 1
+    },
+    {
+        "question": "Która planeta ma najwięcej księżyców?",
+        "answers": ["Ziemia", "Mars", "Jowisz", "Saturn"],
+        "correct": 2
+    },
+    {
+        "question": "Jak nazywa się mała planeta na skraju Układu Słonecznego?",
+        "answers": ["Mars", "Pluton", "Neptun", "Uran"],
+        "correct": 1
+    },
+    {
+        "question": "Która planeta jest najgorętsza w Układzie Słonecznym?",
+        "answers": ["Merkury", "Mars", "Wenus", "Ziemia"],
+        "correct": 2
+    },
+    {
+        "question": "Jak nazywa się miejsce, gdzie narodziły się gwiazdy?",
+        "answers": ["Czarna dziura", "Galaktyka", "Mgławica", "Kometa"],
+        "correct": 2
+    },
+    {
+        "question": "Kto był pierwszym człowiekiem w kosmosie?",
+        "answers": ["Yuri Gagarin", "Buzz Aldrin", "Neil Armstrong", "Alan Shepard"],
+        "correct": 0
+    },
+    {
+        "question": "Która planeta ma największą oś obrotu?",
+        "answers": ["Saturn", "Uran", "Neptun", "Jowisz"],
+        "correct": 1
+    },
+    {
+        "question": "Jak nazywa się efekt, który powoduje rozszerzanie się wszechświata?",
+        "answers": ["Efekt Dopplera", "Efekt Hubble'a", "Teoria Wielkiego Wybuchu", "Efekt czarnej dziury"],
+        "correct": 1
+    },
+    {
+        "question": "Która misja kosmiczna była pierwszą, która wysłała zdjęcia Marsa?",
+        "answers": ["Apollo 11", "Viking 1", "Voyager 1", "Pioneer 10"],
+        "correct": 1
+    }
+]

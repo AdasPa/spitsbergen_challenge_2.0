@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Jak nazywa się największy lądolód na świecie?",
+        "answers": ["Lądolód Grenlandzki", "Lądolód Antarktyczny", "Lądolód Svalbard", "Lądolód Kanadyjski"],
+        "correct": 1
+    },
+    {
+        "question": "Które zwierzę jest symbolem Arktyki?",
+        "answers": ["Niedźwiedź polarny", "Wieloryb", "Pingwin", "Foka"],
+        "correct": 0
+    },
+    {
+        "question": "Jak nazywa się region położony wokół bieguna północnego?",
+        "answers": ["Antarktyka", "Tundra", "Arktyka", "Syberia"],
+        "correct": 2
+    },
+    {
+        "question": "Która z tych wysp należy do Arktyki?",
+        "answers": ["Grenlandia", "Islandia", "Madagaskar", "Nowa Zelandia"],
+        "correct": 0
+    },
+    {
+        "question": "Jakie zjawisko naturalne często występuje w Arktyce w lecie?",
+        "answers": ["Burze piaskowe", "Dni polarne", "Susze", "Tsunami"],
+        "correct": 1
+    },
+    {
+        "question": "Jakie rośliny dominują w tundrze?",
+        "answers": ["Drzewa iglaste", "Mchy i porosty", "Krzewy", "Zioła"],
+        "correct": 1
+    },
+    {
+        "question": "Kto zamieszkuje Arktykę od wieków?",
+        "answers": ["Inuit", "Maorysi", "Aborygeni", "Sami"],
+        "correct": 0
+    },
+    {
+        "question": "Jakie są średnie temperatury w Arktyce latem?",
+        "answers": ["10-15 °C", "0-5 °C", "-20 do -10 °C", "-5 do 0 °C"],
+        "correct": 3
+    },
+    {
+        "question": "Jak nazywa się zjawisko topnienia lodowców w Arktyce?",
+        "answers": ["Deforestacja", "Degradacja", "Klimatyzacja", "Glacjologia"],
+        "correct": 1
+    },
+    {
+        "question": "Jakie zjawisko jest często obserwowane na niebie w Arktyce?",
+        "answers": ["Aurora Borealis", "Burze elektryczne", "Tornado", "Deszcze"],
+        "correct": 0
+    },
+    {
+        "question": "Które państwo ma największą część terytorium w Arktyce?",
+        "answers": ["Norwegia", "Rosja", "Kanada", "USA"],
+        "correct": 1
+    },
+    {
+        "question": "Jakie zwierzęta migrują do Arktyki w lecie?",
+        "answers": ["Słonie", "Sarny", "Ptaki", "Lwy"],
+        "correct": 2
+    },
+    {
+        "question": "Jakie są główne zagrożenia dla Arktyki?",
+        "answers": ["Zanieczyszczenia i zmiany klimatyczne", "Dym i hałas", "Odwierty ropy", "Wojny"],
+        "correct": 0
+    },
+    {
+        "question": "Jak nazywa się popularna tradycja Inuitów?",
+        "answers": ["Sztuka lodowa", "Hunting", "Rybactwo", "Malarstwo"],
+        "correct": 0
+    },
+    {
+        "question": "Jakie zjawisko atmosferyczne wpływa na Arktykę?",
+        "answers": ["Monsun", "Cyklon", "Wiatry polarne", "Tsunami"],
+        "correct": 2
+    },
+    {
+        "question": "Jakie znane miasta znajdują się w Arktyce?",
+        "answers": ["Reykjavik", "Longyearbyen", "Oslo", "Wellington"],
+        "correct": 1
+    },
+    {
+        "question": "Co jest głównym źródłem pożywienia dla niedźwiedzi polarnych?",
+        "answers": ["Ryby", "Foki", "Myszy", "Ptaki"],
+        "correct": 1
+    },
+    {
+        "question": "Jak nazywa się największa morska fauna Arktyki?",
+        "answers": ["Lwy morskie", "Wieloryby", "Foki", "Rekiny"],
+        "correct": 1
+    },
+    {
+        "question": "Jakie zasoby naturalne znajdują się w Arktyce?",
+        "answers": ["Złoto", "Ropa naftowa", "Węgiel", "Wszystkie powyższe"],
+        "correct": 3
+    },
+    {
+        "question": "Jak nazywa się zjawisko, które powoduje zanik lodowców?",
+        "answers": ["Globalne ocieplenie", "El Niño", "Zimowy efekt", "Roczne wahania"],
+        "correct": 0
+    }
+]

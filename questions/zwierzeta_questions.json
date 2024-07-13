@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Kto jest znany jako król rock and rolla?",
+        "answers": ["Elvis Presley", "Michael Jackson", "Freddie Mercury", "John Lennon"],
+        "correct": 0
+    },
+    {
+        "question": "Który instrument ma klawisze i struny?",
+        "answers": ["Gitara", "Flet", "Pianino", "Bęben"],
+        "correct": 2
+    },
+    {
+        "question": "Która grupa muzyczna jest znana z hitu 'Yellow Submarine'?",
+        "answers": ["The Rolling Stones", "The Beatles", "Queen", "Nirvana"],
+        "correct": 1
+    },
+    {
+        "question": "Kto skomponował 'Dla Elizy'?",
+        "answers": ["Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Ludwig van Beethoven", "Antonio Vivaldi"],
+        "correct": 2
+    },
+    {
+        "question": "Jak nazywa się osoba, która dyryguje orkiestrą?",
+        "answers": ["Kompozytor", "Dyrygent", "Pianista", "Perkusista"],
+        "correct": 1
+    },
+    {
+        "question": "Który z poniższych instrumentów jest instrumentem strunowym?",
+        "answers": ["Trąbka", "Skrzypce", "Flet", "Bęben"],
+        "correct": 1
+    },
+    {
+        "question": "Kto jest znany jako król popu?",
+        "answers": ["Elvis Presley", "Michael Jackson", "Freddie Mercury", "John Lennon"],
+        "correct": 1
+    },
+    {
+        "question": "Która z poniższych osób była znanym kompozytorem muzyki klasycznej?",
+        "answers": ["Wolfgang Amadeus Mozart", "Jimi Hendrix", "Elton John", "Taylor Swift"],
+        "correct": 0
+    },
+    {
+        "question": "Który instrument muzyczny gra się ustami?",
+        "answers": ["Gitara", "Flet", "Skrzypce", "Bęben"],
+        "correct": 1
+    },
+    {
+        "question": "Który z tych stylów muzycznych pochodzi z Jamajki?",
+        "answers": ["Blues", "Jazz", "Reggae", "Rock"],
+        "correct": 2
+    },
+    {
+        "question": "Kto skomponował operę 'Czarodziejski flet'?",
+        "answers": ["Wolfgang Amadeus Mozart", "Giuseppe Verdi", "Ludwig van Beethoven", "Johann Strauss"],
+        "correct": 0
+    },
+    {
+        "question": "Który z tych zespołów jest znany z piosenki 'Bohemian Rhapsody'?",
+        "answers": ["The Beatles", "The Rolling Stones", "Queen", "Pink Floyd"],
+        "correct": 2
+    },
+    {
+        "question": "Jak nazywa się szybki, rytmiczny styl muzyki wywodzący się z Nowego Orleanu?",
+        "answers": ["Blues", "Reggae", "Jazz", "Rock"],
+        "correct": 2
+    },
+    {
+        "question": "Który instrument muzyczny jest największy w orkiestrze?",
+        "answers": ["Skrzypce", "Wiolonczela", "Kontrabas", "Flet"],
+        "correct": 2
+    },
+    {
+        "question": "Który z tych zespołów pochodzi z Wielkiej Brytanii?",
+        "answers": ["The Beatles", "Nirvana", "The Beach Boys", "Metallica"],
+        "correct": 0
+    },
+    {
+        "question": "Kto jest znany z piosenki 'Thriller'?",
+        "answers": ["Elvis Presley", "Michael Jackson", "Prince", "Madonna"],
+        "correct": 1
+    },
+    {
+        "question": "Który instrument muzyczny jest najczęściej używany w muzyce jazzowej?",
+        "answers": ["Gitara", "Saksofon", "Bęben", "Flet"],
+        "correct": 1
+    },
+    {
+        "question": "Jak nazywa się osoba, która pisze teksty piosenek?",
+        "answers": ["Kompozytor", "Tekściarz", "Dyrygent", "Piosenkarz"],
+        "correct": 1
+    },
+    {
+        "question": "Który z tych artystów jest znany z hitu 'Rolling in the Deep'?",
+        "answers": ["Taylor Swift", "Adele", "Beyoncé", "Katy Perry"],
+        "correct": 1
+    },
+    {
+        "question": "Który instrument muzyczny gra się uderzając w struny młoteczkami?",
+        "answers": ["Gitara", "Fortepian", "Skrzypce", "Trąbka"],
+        "correct": 1
+    }
+]

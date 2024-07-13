@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Kto wynalazł żarówkę?",
+        "answers": ["Nikola Tesla", "Alexander Graham Bell", "Thomas Edison", "Isaac Newton"],
+        "correct": 2
+    },
+    {
+        "question": "Kto jest odkrywcą Ameryki?",
+        "answers": ["Marco Polo", "Ferdynand Magellan", "Krzysztof Kolumb", "Vasco da Gama"],
+        "correct": 2
+    },
+    {
+        "question": "Kto wynalazł telefon?",
+        "answers": ["Nikola Tesla", "Alexander Graham Bell", "Thomas Edison", "Isaac Newton"],
+        "correct": 1
+    },
+    {
+        "question": "Kto odkrył penicylinę?",
+        "answers": ["Marie Curie", "Albert Einstein", "Alexander Fleming", "Isaac Newton"],
+        "correct": 2
+    },
+    {
+        "question": "Kto jest wynalazcą silnika spalinowego?",
+        "answers": ["Karl Benz", "Henry Ford", "Nikola Tesla", "Thomas Edison"],
+        "correct": 0
+    },
+    {
+        "question": "Kto wynalazł pierwszy samolot?",
+        "answers": ["Alexander Graham Bell", "Nikola Tesla", "Bracia Wright", "Thomas Edison"],
+        "correct": 2
+    },
+    {
+        "question": "Kto odkrył teorię względności?",
+        "answers": ["Isaac Newton", "Albert Einstein", "Nikola Tesla", "Marie Curie"],
+        "correct": 1
+    },
+    {
+        "question": "Kto jest znany jako ojciec współczesnej fizyki?",
+        "answers": ["Isaac Newton", "Albert Einstein", "Nikola Tesla", "Thomas Edison"],
+        "correct": 0
+    },
+    {
+        "question": "Kto wynalazł pierwszy samochód?",
+        "answers": ["Henry Ford", "Karl Benz", "Nikola Tesla", "Thomas Edison"],
+        "correct": 1
+    },
+    {
+        "question": "Kto jest odkrywcą grawitacji?",
+        "answers": ["Albert Einstein", "Nikola Tesla", "Isaac Newton", "Thomas Edison"],
+        "correct": 2
+    },
+    {
+        "question": "Kto wynalazł dynamit?",
+        "answers": ["Nikola Tesla", "Thomas Edison", "Alexander Graham Bell", "Alfred Nobel"],
+        "correct": 3
+    },
+    {
+        "question": "Kto wynalazł telegraf?",
+        "answers": ["Alexander Graham Bell", "Nikola Tesla", "Samuel Morse", "Thomas Edison"],
+        "correct": 2
+    },
+    {
+        "question": "Kto odkrył radioaktywność?",
+        "answers": ["Isaac Newton", "Albert Einstein", "Marie Curie", "Nikola Tesla"],
+        "correct": 2
+    },
+    {
+        "question": "Kto jest wynalazcą telefonu komórkowego?",
+        "answers": ["Martin Cooper", "Nikola Tesla", "Thomas Edison", "Steve Jobs"],
+        "correct": 0
+    },
+    {
+        "question": "Kto wynalazł komputer?",
+        "answers": ["Charles Babbage", "Nikola Tesla", "Alan Turing", "Thomas Edison"],
+        "correct": 0
+    },
+    {
+        "question": "Kto wynalazł telewizor?",
+        "answers": ["Alexander Graham Bell", "Philo Farnsworth", "Nikola Tesla", "Thomas Edison"],
+        "correct": 1
+    },
+    {
+        "question": "Kto jest odkrywcą DNA?",
+        "answers": ["Isaac Newton", "James Watson i Francis Crick", "Nikola Tesla", "Albert Einstein"],
+        "correct": 1
+    },
+    {
+        "question": "Kto wynalazł komputer osobisty?",
+        "answers": ["Bill Gates", "Steve Jobs", "Charles Babbage", "Henry Ford"],
+        "correct": 2
+    },
+    {
+        "question": "Kto jest wynalazcą internetu?",
+        "answers": ["Tim Berners-Lee", "Bill Gates", "Steve Jobs", "Nikola Tesla"],
+        "correct": 0
+    },
+    {
+        "question": "Kto wynalazł prąd zmienny?",
+        "answers": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Albert Einstein"],
+        "correct": 2
+    }
+]

@@ -1,0 +1,69 @@
+[
+    {
+        "question": "Który sport jest znany jako 'królewska gra'?",
+        "answers": ["Szachy", "Piłka nożna", "Koszykówka", "Tenis"],
+        "correct": 1
+    },
+    {
+        "question": "Który sport wymaga używania kijów i piłki na trawiastym polu?",
+        "answers": ["Piłka nożna", "Koszykówka", "Baseball", "Golf"],
+        "correct": 3
+    },
+    {
+        "question": "Kto jest znany jako 'król piłki nożnej'?",
+        "answers": ["Pelé", "Lionel Messi", "Cristiano Ronaldo", "Diego Maradona"],
+        "correct": 0
+    },
+    {
+        "question": "W którym sporcie używa się rakiet i lotki?",
+        "answers": ["Tenis", "Siatkówka", "Badminton", "Piłka ręczna"],
+        "correct": 2
+    },
+    {
+        "question": "Który sport rozgrywa się na lodzie z krążkiem i kijami?",
+        "answers": ["Piłka nożna", "Koszykówka", "Hokej", "Łyżwiarstwo figurowe"],
+        "correct": 2
+    },
+    {
+        "question": "Kto zdobył najwięcej złotych medali na jednych igrzyskach olimpijskich?",
+        "answers": ["Michael Phelps", "Usain Bolt", "Carl Lewis", "Jesse Owens"],
+        "correct": 0
+    },
+    {
+        "question": "Który sport jest znany z używania małej piłeczki i stołu z siatką?",
+        "answers": ["Tenis", "Koszykówka", "Tenis stołowy", "Baseball"],
+        "correct": 2
+    },
+    {
+        "question": "Który sport polega na przebijaniu piłki nad siatką na boisku?",
+        "answers": ["Koszykówka", "Piłka nożna", "Siatkówka", "Badminton"],
+        "correct": 2
+    },
+    {
+        "question": "Jak nazywa się najwyższa góra, którą można zdobyć wspinając się?",
+        "answers": ["K2", "Mount Everest", "Lhotse", "Kangczendzonga"],
+        "correct": 1
+    },
+    {
+        "question": "Który sport jest znany z używania kasku ochronnego?",
+        "answers": ["Boks", "Futbol amerykański", "Koszykówka", "Tenis"],
+        "correct": 1
+    },
+    {
+        "question": "Kto jest rekordzistą w biegu na 100 metrów?",
+        "answers": ["Usain Bolt", "Carl Lewis", "Jesse Owens", "Tyson Gay"],
+        "correct": 0
+    },
+    {
+        "question": "Jak nazywa się zawodowy sportowiec, który gra w tenisa?",
+        "answers": ["Tenisista", "Koszykarz", "Bokser", "Pływak"],
+        "correct": 0
+    },
+    {
+        "question": "Która drużyna wygrała Mistrzostwa Świata FIFA w 2018 roku?",
+        "answers": ["Brazylia", "Francja", "Niemcy", "Argentyna"],
+        "correct": 1
+    },
+    {
+        "question": "Jakie są wymiary boiska do piłki nożnej?",
+        "answers": ["100

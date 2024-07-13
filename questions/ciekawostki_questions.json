@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Co napędza większość samochodów?",
+        "answers": ["Woda", "Prąd", "Benzyna", "Powietrze"],
+        "correct": 2
+    },
+    {
+        "question": "Jak nazywa się miejsce, gdzie kierowca siedzi i prowadzi samochód?",
+        "answers": ["Bagażnik", "Silnik", "Kokpit", "Kierownica"],
+        "correct": 2
+    },
+    {
+        "question": "Która część samochodu jest używana do kierowania?",
+        "answers": ["Kierownica", "Koła", "Siedzenie", "Silnik"],
+        "correct": 0
+    },
+    {
+        "question": "Co umożliwia samochodowi jazdę po drodze?",
+        "answers": ["Skrzydła", "Koła", "Pływaki", "Silnik"],
+        "correct": 1
+    },
+    {
+        "question": "Jak nazywa się miejsce, gdzie przechowujemy bagaże w samochodzie?",
+        "answers": ["Kokpit", "Silnik", "Bagażnik", "Bak"],
+        "correct": 2
+    },
+    {
+        "question": "Jak nazywa się urządzenie, które pomaga zatrzymać samochód?",
+        "answers": ["Silnik", "Hamulce", "Kierownica", "Koła"],
+        "correct": 1
+    },
+    {
+        "question": "Która część samochodu odpowiada za zasilanie jego systemów elektrycznych?",
+        "answers": ["Akumulator", "Bagażnik", "Koła", "Bak"],
+        "correct": 0
+    },
+    {
+        "question": "Co chroni kierowcę i pasażerów przed wypadkami?",
+        "answers": ["Lusterka", "Poduszki powietrzne", "Kierownica", "Hamulce"],
+        "correct": 1
+    },
+    {
+        "question": "Jak nazywa się płyn używany do chłodzenia silnika?",
+        "answers": ["Woda", "Olej", "Płyn chłodniczy", "Benzyna"],
+        "correct": 2
+    },
+    {
+        "question": "Która część samochodu oświetla drogę w nocy?",
+        "answers": ["Lusterka", "Kierunkowskazy", "Reflektory", "Kierownica"],
+        "correct": 2
+    },
+    {
+        "question": "Jak nazywa się osoba, która prowadzi samochód?",
+        "answers": ["Pilot", "Kierowca", "Mechanik", "Pasażer"],
+        "correct": 1
+    },
+    {
+        "question": "Co wskazuje prędkość samochodu?",
+        "answers": ["Hamulce", "Prędkościomierz", "Kierownica", "Reflektory"],
+        "correct": 1
+    },
+    {
+        "question": "Jak nazywa się urządzenie, które oczyszcza szybę samochodu z deszczu?",
+        "answers": ["Hamulce", "Kierownica", "Płyn chłodniczy", "Wycieraczki"],
+        "correct": 3
+    },
+    {
+        "question": "Która część samochodu przekształca energię paliwa w ruch?",
+        "answers": ["Hamulce", "Silnik", "Koła", "Akumulator"],
+        "correct": 1
+    },
+    {
+        "question": "Co pozwala samochodowi zmieniać kierunek jazdy?",
+        "answers": ["Silnik", "Hamulce", "Kierownica", "Reflektory"],
+        "correct": 2
+    },
+    {
+        "question": "Jak nazywa się część samochodu, która pokazuje poziom paliwa?",
+        "answers": ["Hamulce", "Prędkościomierz", "Wskaźnik paliwa", "Reflektory"],
+        "correct": 2
+    },
+    {
+        "question": "Co pomaga samochodowi zachować przyczepność na drodze?",
+        "answers": ["Silnik", "Opony", "Akumulator", "Reflektory"],
+        "correct": 1
+    },
+    {
+        "question": "Jak nazywa się miejsce, gdzie tankujemy paliwo do samochodu?",
+        "answers": ["Stacja benzynowa", "Warsztat", "Myjnia", "Parking"],
+        "correct": 0
+    },
+    {
+        "question": "Która część samochodu pomaga kierowcy widzieć, co dzieje się z tyłu?",
+        "answers": ["Reflektory", "Lusterka boczne", "Kierownica", "Hamulce"],
+        "correct": 1
+    },
+    {
+        "question": "Jak nazywa się dźwiękowy sygnał ostrzegawczy w samochodzie?",
+        "answers": ["Klakson", "Reflektory", "Kierunkowskazy", "Prędkościomierz"],
+        "correct": 0
+    }
+]
