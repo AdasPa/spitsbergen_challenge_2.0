@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public class BazaWiedzy : Node
+public class Quizy : Node
 {
 	private TextureButton historiaButton;
 	private TextureButton geografiaButton;
@@ -21,7 +21,7 @@ public class BazaWiedzy : Node
 		naukaButton = GetNode<TextureButton>("NaukaButton");
 		roslinyButton = GetNode<TextureButton>("RoslinyButton");
 		ciekawostkiButton = GetNode<TextureButton>("CiekawostkiButton");
-		backButton = GetNode<TextureButton>("BackButton");
+		backButton = GetNode<TextureButton>("Description/BackButton");
 		moneyCounter = GetNode<Label>("Control/Label");
 
 		// Ustaw początkową wartość licznika monet
@@ -58,42 +58,42 @@ public class BazaWiedzy : Node
 	private void OnHistoriaButtonPressed()
 	{
 		// Przejdź do sceny BazaHistoria
-		GetTree().ChangeScene("res://scenes/BazaHistoria.tscn");
+		GetTree().ChangeScene("res://scenes/QuizHistoria.tscn");
 	}
 
 	private void OnGeografiaButtonPressed()
 	{
 		// Przejdź do sceny BazaGeografia
-		GetTree().ChangeScene("res://scenes/BazaGeografia.tscn");
+		GetTree().ChangeScene("res://scenes/QuizGeografia.tscn");
 	}
 
 	private void OnZwierzetaButtonPressed()
 	{
 		// Przejdź do sceny BazaZwierzeta
-		GetTree().ChangeScene("res://scenes/BazaZwierzeta.tscn");
+		GetTree().ChangeScene("res://scenes/QuizZwierzeta.tscn");
 	}
 
 	private void OnNaukaButtonPressed()
 	{
 		// Przejdź do sceny BazaNauka
-		GetTree().ChangeScene("res://scenes/BazaNauka.tscn");
+		GetTree().ChangeScene("res://scenes/QuizNauka.tscn");
 	}
 
 	private void OnRoslinyButtonPressed()
 	{
 		// Przejdź do sceny BazaRosliny
-		GetTree().ChangeScene("res://scenes/BazaRosliny.tscn");
+		GetTree().ChangeScene("res://scenes/QuizRosliny.tscn");
 	}
 
 	private void OnCiekawostkiButtonPressed()
 	{
 		// Przejdź do sceny BazaCiekawostki
-		GetTree().ChangeScene("res://scenes/BazaCiekawostki.tscn");
+		GetTree().ChangeScene("res://scenes/QuizCiekawostki.tscn");
 	}
 
 	private void OnBackButtonPressed()
 	{
 		// Przejdź do poprzedniej sceny lub wykonaj inną akcję
-		GetTree().ChangeScene("res://scenes/MainScene.tscn");
+		GetTree().ChangeScene("res://scenes/Zadania.tscn");
 	}
 }
