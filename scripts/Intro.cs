@@ -16,6 +16,8 @@ public class Intro : Node
 		animatedSprite.Connect("animation_finished", this, nameof(OnAnimationFinished));
 		
 		zagrajButton.Connect("pressed", this, nameof(OnZagrajButtonPressed));
+
+		//ResetProgress();
 	}
 
 	private void OnAnimationFinished()

@@ -18,8 +18,18 @@ public class MemoryGame : Control
 	private Texture cardBackTexturePressed;
 	private Texture cardBackTextureHover;
 	
+	private TextureButton listaMemoryButton;
+	private TextureButton sklepButton1;
+	private ColorRect memoryPanel;
+	private ColorRect winPanel;
+	private Label wynikLabel;
+	private Label moneyLabel;
+
+	
 	private int card1Id = -1;
 	private TextureButton card1Button;
+	private int matchesFound = 0;
+	private int earnedMoney;
 	
 	private int[] cardIndices;
 
@@ -45,7 +55,32 @@ public class MemoryGame : Control
 			GetNode<TextureButton>("MemoryPanel/GridContainer/TextureButton11"),
 			GetNode<TextureButton>("MemoryPanel/GridContainer/TextureButton12")
 		};
+		
+		memoryPanel = GetNode<ColorRect>("MemoryPanel");
+		memoryPanel.Visible = true;
+		winPanel = GetNode<ColorRect>("WinPanel");
+		winPanel.Visible = false;
+		
+		wynikLabel = GetNode<Label>("WinPanel/WynikLabel");
+		moneyLabel = GetNode<Label>("WinPanel/MonetyPanel/MoneyLabel");
 
+		listaMemoryButton = GetNode<TextureButton>("WinPanel/ColorRect/ListaMemoryButton");
+		sklepButton1 = GetNode<TextureButton>("WinPanel/ColorRect/SklepButton1");
+
+		listaMemoryButton.Connect("pressed", this, nameof(OnListaMemoryButtonPressed));
+		sklepButton1.Connect("pressed", this, nameof(OnSklepButton1Pressed));
+
+
+	}
+	
+	public void SetCardDataFilePath(string path)
+	{
+		cardDataFilePath = path;
+		InitializeMemory();
+	}
+
+	private void InitializeMemory()
+	{
 		LoadCards();
 		InitializeCards();
 	}
@@ -142,6 +177,22 @@ public class MemoryGame : Control
 		}
 	}
 
+	private void ShowResult()
+	{
+		// Hide the quiz panel and show the win panel
+		memoryPanel.Visible = false;
+		winPanel.Visible = true;
+		
+		earnedMoney = 200;
+		moneyLabel.Text = $"+{earnedMoney} nok";
+
+		// Add earned money to the global state
+		Global global = GetNode<Global>("/root/Global");
+		global.AddMoney(earnedMoney);
+
+		// Display the result screen
+		GD.Print("Showing result screen");
+	}
 
 	private async void OnCardButtonPressed(Dictionary card, TextureButton cardButton)
 	{
@@ -173,6 +224,11 @@ public class MemoryGame : Control
 				disabledButtons.Add(cardButton);
 				card1Button.Disabled = true;
 				disabledButtons.Add(card1Button);
+				matchesFound++;
+				if(matchesFound >= cards.Count/2)
+				{
+					ShowResult();
+				}
 				card1Id = -1;
 				card1Button = null;
 				EnableAllButtons();
@@ -214,5 +270,19 @@ public class MemoryGame : Control
 				button.Disabled = false;
 			}
 		}
+	}
+	
+	private void OnListaMemoryButtonPressed()
+	{
+		GD.Print("Lista Memory Button Pressed");
+		// Tutaj dodaj akcję do wykonania po naciśnięciu przycisku, np. zmiana sceny
+		GetTree().ChangeScene("res://scenes/Memory.tscn");
+	}
+
+	private void OnSklepButton1Pressed()
+	{
+		GD.Print("Sklep Button 1 Pressed");
+		// Tutaj dodaj akcję do wykonania po naciśnięciu przycisku, np. zmiana sceny
+		GetTree().ChangeScene("res://scenes/Sklep.tscn");
 	}
 }

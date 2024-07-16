@@ -41,4 +41,9 @@ public class Global : Node
 		Money += amount;
 		SaveMoney();
 	}
+
+	// public void ResetProgress()
+	// {
+
+	// }
 }

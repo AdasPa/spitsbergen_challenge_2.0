@@ -21,6 +21,7 @@ public class QuizGame : Control
 	private ColorRect winPanel;
 	private Label wynikLabel;
 	private Label moneyLabel;
+	private Label questionsNumberLabel;
 
 
 
@@ -56,14 +57,18 @@ public class QuizGame : Control
 		winPanel = GetNode<ColorRect>("WinPanel");
 		winPanel.Visible = false;
 		
-		wynikLabel = GetNode<Label>("WinPanel/WynikLabel");
+		wynikLabel = GetNode<Label>("WinPanel/WynikPanel/WynikLabel");
 		moneyLabel = GetNode<Label>("WinPanel/MonetyPanel/MoneyLabel");
+		questionsNumberLabel = GetNode<Label>("WinPanel/WynikPanel/QuestionsNumberLabel");
 
 		listaQuizowButton = GetNode<TextureButton>("WinPanel/ColorRect/ListaQuizowButton");
 		sklepButton1 = GetNode<TextureButton>("WinPanel/ColorRect/SklepButton1");
 
 		listaQuizowButton.Connect("pressed", this, nameof(OnListaQuizowButtonPressed));
 		sklepButton1.Connect("pressed", this, nameof(OnSklepButton1Pressed));
+
+		quizPanel.Visible = true;
+		winPanel.Visible = false;
 
 		for (int i = 0; i < answerButtons.Length; i++)
 		{
@@ -223,7 +228,14 @@ public class QuizGame : Control
 		
 		earnedMoney = correctAnswers*10;
 		
-		wynikLabel.Text = $"Twój wynik: {correctAnswers} / {maxQuestions}";
+		if (correctAnswers<=9)	wynikLabel.Text = $"0{correctAnswers}";
+		else	wynikLabel.Text = $"0{correctAnswers}";
+
+		if(maxQuestions <= 9)	questionsNumberLabel.Text = $"/0{maxQuestions}";
+		else	questionsNumberLabel.Text = $"/{maxQuestions}";
+
+		
+
 		moneyLabel.Text = $"+{earnedMoney} nok";
 
 		// Add earned money to the global state
