@@ -1,6 +1,6 @@
-[gd_scene load_steps=24 format=2]
+[gd_scene load_steps=31 format=2]
 
-[ext_resource path="res://fonts/PressStart2P.tres" type="DynamicFont" id=1]
+[ext_resource path="res://fonts/PressStart2P_32.tres" type="DynamicFont" id=1]
 [ext_resource path="res://scenes/MoneyCounter.tscn" type="PackedScene" id=2]
 [ext_resource path="res://assets/buttons/QuizyDefault.png" type="Texture" id=3]
 [ext_resource path="res://assets/properties/Property 1=Disabled.png" type="Texture" id=4]
@@ -20,9 +20,16 @@
 [ext_resource path="res://assets/buttons/KrzyzowkiHover.png" type="Texture" id=18]
 [ext_resource path="res://assets/buttons/KrzyzowkiPress.png" type="Texture" id=19]
 [ext_resource path="res://assets/buttons/MemoryPress.png" type="Texture" id=20]
-[ext_resource path="res://assets/buttons/StrzelnicaDefault.png" type="Texture" id=21]
-[ext_resource path="res://assets/buttons/StrzelnicaPress.png" type="Texture" id=22]
-[ext_resource path="res://assets/buttons/StrzelnicaHover.png" type="Texture" id=23]
+[ext_resource path="res://fonts/Jersey10.tres" type="DynamicFont" id=21]
+[ext_resource path="res://assets/buttons/RybakButton=Default.png" type="Texture" id=22]
+[ext_resource path="res://assets/buttons/RybakButton=Press.png" type="Texture" id=23]
+[ext_resource path="res://assets/buttons/RybakButton=Hover.png" type="Texture" id=24]
+[ext_resource path="res://assets/buttons/Lawina=Default.png" type="Texture" id=25]
+[ext_resource path="res://assets/buttons/Lawina=Hover.png" type="Texture" id=26]
+[ext_resource path="res://assets/buttons/Lawina=Press.png" type="Texture" id=27]
+[ext_resource path="res://assets/buttons/StrzelnicaButton=Hover.png" type="Texture" id=28]
+[ext_resource path="res://assets/buttons/StrzelnicaButton=Default.png" type="Texture" id=29]
+[ext_resource path="res://assets/buttons/StrzelnicaButton=Press.png" type="Texture" id=30]
 
 [node name="Node" type="Node"]
 script = ExtResource( 9 )
@@ -131,28 +138,64 @@ texture_hover = ExtResource( 18 )
 texture_disabled = ExtResource( 15 )
 
 [node name="StrzelnicaButton" type="TextureButton" parent="."]
-margin_left = 80.0
-margin_top = 728.0
-margin_right = 480.0
-margin_bottom = 968.0
-texture_normal = ExtResource( 21 )
-texture_pressed = ExtResource( 22 )
-texture_hover = ExtResource( 23 )
-
-[node name="LawinaButton" type="TextureButton" parent="."]
 margin_left = 520.0
 margin_top = 728.0
 margin_right = 920.0
 margin_bottom = 968.0
-texture_normal = ExtResource( 21 )
-texture_pressed = ExtResource( 22 )
-texture_hover = ExtResource( 23 )
+texture_normal = ExtResource( 29 )
+texture_pressed = ExtResource( 30 )
+texture_hover = ExtResource( 28 )
 
-[node name="RybakButton" type="TextureButton" parent="."]
+[node name="OpisLabel" type="Label" parent="StrzelnicaButton"]
+margin_left = 32.0
+margin_top = 136.0
+margin_right = 368.0
+margin_bottom = 209.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 21 )
+text = "Sprawdź się na strzelnicy i zdobądź licencję na broń"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="LawinaButton" type="TextureButton" parent="."]
 margin_left = 960.0
 margin_top = 728.0
 margin_right = 1360.0
 margin_bottom = 968.0
-texture_normal = ExtResource( 21 )
-texture_pressed = ExtResource( 22 )
-texture_hover = ExtResource( 23 )
+texture_normal = ExtResource( 25 )
+texture_pressed = ExtResource( 27 )
+texture_hover = ExtResource( 26 )
+
+[node name="OpisLabel" type="Label" parent="LawinaButton"]
+margin_left = 32.0
+margin_top = 136.0
+margin_right = 368.0
+margin_bottom = 209.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 21 )
+text = "Odblokuj dostęp do portu zasypanego podczas lawiny"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="RybakButton" type="TextureButton" parent="."]
+margin_left = 80.0
+margin_top = 728.0
+margin_right = 480.0
+margin_bottom = 968.0
+texture_normal = ExtResource( 22 )
+texture_pressed = ExtResource( 23 )
+texture_hover = ExtResource( 24 )
+
+[node name="OpisLabel" type="Label" parent="RybakButton"]
+margin_left = 32.0
+margin_top = 136.0
+margin_right = 368.0
+margin_bottom = 209.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 21 )
+text = "Złów ryby, aby uzupełnić zapasy jedzenia mieszkańców Longyearbyen"
+align = 1
+valign = 1
+autowrap = true

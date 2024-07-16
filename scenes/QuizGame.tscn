@@ -1,10 +1,10 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=16 format=2]
 
-[ext_resource path="res://fonts/Jersey10.tres" type="DynamicFont" id=1]
+[ext_resource path="res://fonts/Jersey10_36.tres" type="DynamicFont" id=1]
 [ext_resource path="res://assets/buttons/OdpowiedzDefault.png" type="Texture" id=2]
 [ext_resource path="res://assets/buttons/OdpowiedzHover.png" type="Texture" id=3]
 [ext_resource path="res://assets/buttons/OdpowiedzPress.png" type="Texture" id=4]
-[ext_resource path="res://fonts/PressStart2P.tres" type="DynamicFont" id=5]
+[ext_resource path="res://fonts/PressStart2P_32.tres" type="DynamicFont" id=5]
 [ext_resource path="res://scripts/QuizGame.cs" type="Script" id=6]
 [ext_resource path="res://assets/products/coin.png" type="Texture" id=7]
 [ext_resource path="res://assets/buttons/SklepDefault1.png" type="Texture" id=8]
@@ -13,6 +13,8 @@
 [ext_resource path="res://assets/buttons/ListaQuizowPress.png" type="Texture" id=11]
 [ext_resource path="res://assets/buttons/ListaQuizowDefault.png" type="Texture" id=12]
 [ext_resource path="res://assets/buttons/ListaQuizowHover.png" type="Texture" id=13]
+[ext_resource path="res://fonts/PressStart2P_20.tres" type="DynamicFont" id=14]
+[ext_resource path="res://fonts/Jersey10_26.tres" type="DynamicFont" id=15]
 
 [node name="Control" type="Control"]
 margin_right = 40.0
@@ -136,7 +138,6 @@ custom_fonts/font = ExtResource( 5 )
 text = "01/10"
 
 [node name="WinPanel" type="ColorRect" parent="."]
-visible = false
 margin_left = 80.0
 margin_top = 264.0
 margin_right = 1360.0
@@ -154,10 +155,10 @@ align = 1
 valign = 1
 
 [node name="MonetyPanel" type="ColorRect" parent="WinPanel"]
-margin_left = 470.0
-margin_top = 144.0
-margin_right = 809.0
-margin_bottom = 200.0
+margin_left = 724.0
+margin_top = 160.0
+margin_right = 1063.0
+margin_bottom = 216.0
 color = Color( 1, 1, 1, 0 )
 
 [node name="Sprite" type="Sprite" parent="WinPanel/MonetyPanel"]
@@ -167,20 +168,42 @@ offset = Vector2( 28, 28 )
 [node name="MoneyLabel" type="Label" parent="WinPanel/MonetyPanel"]
 margin_left = 80.0
 margin_top = 12.0
-margin_right = 272.0
+margin_right = 336.0
 margin_bottom = 44.0
 custom_fonts/font = ExtResource( 5 )
 text = "+200 nok"
 
-[node name="WynikLabel" type="Label" parent="WinPanel"]
-margin_left = 120.0
-margin_top = 256.0
-margin_right = 1160.0
-margin_bottom = 288.0
-custom_fonts/font = ExtResource( 1 )
-text = "8/10"
-align = 1
+[node name="WynikPanel" type="ColorRect" parent="WinPanel"]
+margin_left = 270.0
+margin_top = 168.0
+margin_right = 556.0
+margin_bottom = 208.0
+color = Color( 1, 1, 1, 0 )
+
+[node name="Label" type="Label" parent="WinPanel/WynikPanel"]
+margin_right = 100.0
+margin_bottom = 40.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 14 )
+text = "wynik"
 valign = 1
+
+[node name="WynikLabel" type="Label" parent="WinPanel/WynikPanel"]
+margin_left = 125.0
+margin_right = 285.0
+margin_bottom = 40.0
+custom_fonts/font = ExtResource( 5 )
+text = "09"
+valign = 1
+
+[node name="QuestionsNumberLabel" type="Label" parent="WinPanel/WynikPanel"]
+margin_left = 189.0
+margin_top = 4.0
+margin_right = 285.0
+margin_bottom = 36.0
+custom_colors/font_color = Color( 1, 1, 1, 0.498039 )
+custom_fonts/font = ExtResource( 5 )
+text = "/10"
 
 [node name="ColorRect" type="ColorRect" parent="WinPanel"]
 margin_left = 200.0
@@ -204,3 +227,26 @@ margin_bottom = 120.0
 texture_normal = ExtResource( 8 )
 texture_pressed = ExtResource( 10 )
 texture_hover = ExtResource( 9 )
+
+[node name="ColorRect2" type="ColorRect" parent="WinPanel"]
+margin_left = 120.0
+margin_top = 346.0
+margin_right = 1160.0
+margin_bottom = 354.0
+
+[node name="ColorRect3" type="ColorRect" parent="WinPanel"]
+margin_left = 636.0
+margin_top = 160.0
+margin_right = 644.0
+margin_bottom = 216.0
+
+[node name="CommentLabel" type="Label" parent="WinPanel"]
+margin_left = 120.0
+margin_top = 256.0
+margin_right = 1160.0
+margin_bottom = 288.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 15 )
+text = "Brawo! Udało Ci się ukończyć Quiz :) Wydaj zarobione pieniądze w Sklepie lub sprawdź się w innych Quizach."
+align = 1
+valign = 1

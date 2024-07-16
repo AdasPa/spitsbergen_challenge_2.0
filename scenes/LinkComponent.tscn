@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://fonts/PressStart2P.tres" type="DynamicFont" id=1]
+[ext_resource path="res://fonts/PressStart2P_32.tres" type="DynamicFont" id=1]
 [ext_resource path="res://fonts/Jersey10-Regular.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://assets/properties/Property 1=Press-1.png" type="Texture" id=3]
 [ext_resource path="res://assets/properties/Property 1=Hover-1.png" type="Texture" id=4]
@@ -8,7 +8,7 @@
 [ext_resource path="res://scripts/LinkComponent.cs" type="Script" id=6]
 
 [sub_resource type="DynamicFont" id=1]
-size = 24
+size = 30
 font_data = ExtResource( 2 )
 
 [node name="LinkComponent" type="Control"]
@@ -27,8 +27,9 @@ margin_left = 40.0
 margin_top = 112.0
 margin_right = 1144.0
 margin_bottom = 176.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 1 )
-text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non sem turpis. Aliquam et enim quis tellus interdum vehicula eu id nulla. Maecenas commodo sed tortor in tempus. Nunc placerat a erat sit amet euismod."
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non sem turpis. Aliquam et enim quis tellus interdum vehicula eu id nulla. Maecenas commodo sed tortor in tempus. "
 autowrap = true
 
 [node name="Title" type="Label" parent="LinkPanel"]
@@ -36,6 +37,7 @@ margin_left = 40.0
 margin_top = 40.0
 margin_right = 1144.0
 margin_bottom = 80.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Link 01"
 

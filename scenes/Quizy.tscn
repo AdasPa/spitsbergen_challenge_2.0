@@ -25,7 +25,7 @@
 [ext_resource path="res://assets/properties/Property 1=Press.png" type="Texture" id=23]
 [ext_resource path="res://assets/properties/Property 1=Hover.png" type="Texture" id=24]
 [ext_resource path="res://scripts/Quizy.cs" type="Script" id=25]
-[ext_resource path="res://fonts/PressStart2P.tres" type="DynamicFont" id=26]
+[ext_resource path="res://fonts/PressStart2P_32.tres" type="DynamicFont" id=26]
 [ext_resource path="res://assets/buttons/CiekawostkiDefault.png" type="Texture" id=27]
 [ext_resource path="res://assets/buttons/CiekawostkiDone.png" type="Texture" id=28]
 [ext_resource path="res://assets/buttons/CiekawostkiHover.png" type="Texture" id=29]

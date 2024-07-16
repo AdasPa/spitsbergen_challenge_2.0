@@ -9,8 +9,8 @@
 [ext_resource path="res://assets/buttons/Zadania=Press.png" type="Texture" id=7]
 [ext_resource path="res://assets/buttons/BazaWiedzy=Hover.png" type="Texture" id=8]
 [ext_resource path="res://assets/buttons/BazaWiedzy=Press.png" type="Texture" id=9]
-[ext_resource path="res://assets/buttons/Sklep=Press.png" type="Texture" id=10]
-[ext_resource path="res://assets/buttons/Sklep=Hover.png" type="Texture" id=11]
+[ext_resource path="res://assets/buttons/SklepButton=Hover.png" type="Texture" id=10]
+[ext_resource path="res://assets/buttons/SklepButton=Press.png" type="Texture" id=11]
 [ext_resource path="res://assets/buttons/Zadania=Hover.png" type="Texture" id=12]
 
 [node name="Node" type="Node"]
@@ -49,7 +49,7 @@ margin_top = 264.0
 margin_right = 1360.0
 margin_bottom = 944.0
 texture_normal = ExtResource( 2 )
-texture_pressed = ExtResource( 10 )
-texture_hover = ExtResource( 11 )
+texture_pressed = ExtResource( 11 )
+texture_hover = ExtResource( 10 )
 
 [node name="Control2" parent="." instance=ExtResource( 5 )]

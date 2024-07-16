@@ -1,18 +1,18 @@
 [gd_scene load_steps=14 format=2]
 
-[ext_resource path="res://fonts/Jersey10.tres" type="DynamicFont" id=1]
+[ext_resource path="res://fonts/Jersey10_26.tres" type="DynamicFont" id=1]
 [ext_resource path="res://scripts/MemoryGame.cs" type="Script" id=2]
 [ext_resource path="res://memory/CoverDefault.png" type="Texture" id=3]
 [ext_resource path="res://memory/CoverPress.png" type="Texture" id=4]
-[ext_resource path="res://fonts/PressStart2P.tres" type="DynamicFont" id=5]
+[ext_resource path="res://fonts/PressStart2P_32.tres" type="DynamicFont" id=5]
 [ext_resource path="res://memory/CoverHover.png" type="Texture" id=6]
 [ext_resource path="res://assets/products/coin.png" type="Texture" id=7]
 [ext_resource path="res://assets/buttons/SklepDefault1.png" type="Texture" id=8]
 [ext_resource path="res://assets/buttons/SklepHover1.png" type="Texture" id=9]
 [ext_resource path="res://assets/buttons/SklepPress1.png" type="Texture" id=10]
-[ext_resource path="res://assets/buttons/ListaQuizowPress.png" type="Texture" id=11]
-[ext_resource path="res://assets/buttons/ListaQuizowDefault.png" type="Texture" id=12]
-[ext_resource path="res://assets/buttons/ListaQuizowHover.png" type="Texture" id=13]
+[ext_resource path="res://assets/buttons/ListaMemoryDefault.png" type="Texture" id=11]
+[ext_resource path="res://assets/buttons/ListaMemoryPress.png" type="Texture" id=12]
+[ext_resource path="res://assets/buttons/ListaMemoryHover.png" type="Texture" id=13]
 
 [node name="Control" type="Control"]
 margin_right = 40.0
@@ -24,7 +24,7 @@ margin_left = 80.0
 margin_top = 264.0
 margin_right = 1360.0
 margin_bottom = 936.0
-color = Color( 1, 1, 1, 0.572549 )
+color = Color( 1, 1, 1, 0.2 )
 
 [node name="GridContainer" type="GridContainer" parent="MemoryPanel"]
 margin_left = 32.0
@@ -156,7 +156,7 @@ valign = 1
 
 [node name="MonetyPanel" type="ColorRect" parent="WinPanel"]
 margin_left = 470.0
-margin_top = 144.0
+margin_top = 160.0
 margin_right = 809.0
 margin_bottom = 200.0
 color = Color( 1, 1, 1, 0 )
@@ -178,10 +178,11 @@ margin_left = 120.0
 margin_top = 256.0
 margin_right = 1160.0
 margin_bottom = 288.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
-text = "8/10"
+text = "Brawo! Udało Ci się ukończyć Memory :) Wydaj zarobione pieniądze w Sklepie lub sprawdź się w innych Memory."
 align = 1
-valign = 1
+autowrap = true
 
 [node name="ColorRect" type="ColorRect" parent="WinPanel"]
 margin_left = 200.0
@@ -190,12 +191,12 @@ margin_right = 1080.0
 margin_bottom = 520.0
 color = Color( 1, 1, 1, 0 )
 
-[node name="ListaQuizowButton" type="TextureButton" parent="WinPanel/ColorRect"]
+[node name="ListaMemoryButton" type="TextureButton" parent="WinPanel/ColorRect"]
 margin_left = 352.0
 margin_right = 816.0
 margin_bottom = 120.0
-texture_normal = ExtResource( 12 )
-texture_pressed = ExtResource( 11 )
+texture_normal = ExtResource( 11 )
+texture_pressed = ExtResource( 12 )
 texture_hover = ExtResource( 13 )
 
 [node name="SklepButton1" type="TextureButton" parent="WinPanel/ColorRect"]
@@ -205,3 +206,9 @@ margin_bottom = 120.0
 texture_normal = ExtResource( 8 )
 texture_pressed = ExtResource( 10 )
 texture_hover = ExtResource( 9 )
+
+[node name="ColorRect2" type="ColorRect" parent="WinPanel"]
+margin_left = 120.0
+margin_top = 336.0
+margin_right = 1160.0
+margin_bottom = 344.0
