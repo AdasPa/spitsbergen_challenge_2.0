@@ -52,11 +52,6 @@ public class MainScene : Node
 
 	private void OnSklepButtonPressed()
 	{
-		// Pobierz instancję globalnego singletona
-		Global global = (Global)GetNode("/root/Global");
-
-		// Dodaj 100 monet
-		global.AddMoney(100);
-		//GetTree().ChangeScene("res://ShopScene.tscn");
+		GetTree().ChangeScene("res://scenes/Sklep.tscn");
 	}
 }

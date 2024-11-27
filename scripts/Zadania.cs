@@ -37,7 +37,9 @@ public class Zadania : Node
 
 	private void OnLawinaButtonPressed()
 	{
-		GetTree().ChangeScene("res://scenes/Lawina.tscn");
+		//GetTree().ChangeScene("res://scenes/Lawina.tscn");
+		Global global = (Global)GetNode("/root/Global");
+		global.AddMoney(1000);
 	}
 
 	private void OnRybakButtonPressed()

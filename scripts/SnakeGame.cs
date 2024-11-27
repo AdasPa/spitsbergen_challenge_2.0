@@ -6,6 +6,8 @@ public class SnakeGame : Control
 {
 	[Export] public int GridSize = 50; // Wymiary pojedynczego kwadracika
 	[Export] public int MoveInterval = 120; // Interwał ruchu węża w milisekundach
+
+	private string _gameName = "snake";
 	
 	private Timer _moveTimer;
 	private Timer _spawnFishTimer;
@@ -222,18 +224,27 @@ public class SnakeGame : Control
 		GD.Print("Game Over");
 		_moveTimer.Stop();
 		_spawnFishTimer.Stop();
+
+		Global global = GetNode<Global>("/root/Global");
+		var _highscore = global.GetHighScore(_gameName);
 		
 		_snakePanel.Visible = false;
 		_winPanel.Visible = true;
 		
-		_earnedMoney = _score;
+		if(_score > _highscore)
+			_earnedMoney = (_score - _highscore)*5;
+		else
+			_earnedMoney = 0;
+
 		_moneyLabel.Text = $"+{_earnedMoney} nok";
 		_wynikLabel.Text = $"Wynik: {_score}.";
 		
 
 		// Add earned money to the global state
-		Global global = GetNode<Global>("/root/Global");
+		
 		global.AddMoney(_earnedMoney);
+
+		global.SetHighScore(_gameName, _score);
 
 		// Display the result screen
 		GD.Print("Showing result screen");

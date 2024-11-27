@@ -16,7 +16,7 @@ public class QuizHistoria : Node
 		// Set the question file path for history quiz
 		if (quizGame != null)
 		{
-			quizGame.SetQuestionFilePath("res://questions/historia_questions.json");
+			quizGame.SetQuestionFilePathAndGameName("res://questions/historia_questions.json", "quiz_historia");
 		}
 		else
 		{

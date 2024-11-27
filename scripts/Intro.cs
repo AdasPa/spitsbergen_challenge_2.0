@@ -8,6 +8,9 @@ public class Intro : Node
 
 	public override void _Ready()
 	{
+		Global global = (Global)GetNode("/root/Global");
+		if(!global.IsFirstRun())
+			GetTree().ChangeScene("res://scenes/MainScene.tscn");
 		animatedSprite = GetNode<AnimatedSprite>("AnimatedSprite");
 		zagrajButton = GetNode<TextureButton>("AnimatedSprite/ZagrajButton");
 		zagrajButton.Hide(); // Ukryj przycisk na początku
@@ -17,7 +20,8 @@ public class Intro : Node
 		
 		zagrajButton.Connect("pressed", this, nameof(OnZagrajButtonPressed));
 
-		//ResetProgress();
+		
+		global.ResetProgress();
 	}
 
 	private void OnAnimationFinished()

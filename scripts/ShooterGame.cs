@@ -6,8 +6,10 @@ using System.Collections.Generic;
 
 public class ShooterGame : Control
 {
-	[Export] public float MoveSpeed = 300f; // Prędkość poruszania celownikiem
+	[Export] public float MoveSpeed = 500f; // Prędkość poruszania celownikiem
 	[Export] public int GameDuration = 60; // Czas gry w sekundach
+
+	private string gameName = "shooter";
 
 	private Sprite celownik;
 	private Label scoreLabel;
@@ -174,13 +176,13 @@ private void StartGame()
 
 	private void OnSpawnTimerTimeout()
 	{
-		if (GetTree().GetNodesInGroup("Targets").Count < 3)
+		if (GetTree().GetNodesInGroup("Targets").Count < 5)
 		{
 			SpawnTarget();
 		}
 
 		// Restart the timer with a new random time
-		spawnTimer.WaitTime = (float)random.NextDouble() * 2 + 1;
+		spawnTimer.WaitTime = (float)random.NextDouble() * 2;
 		spawnTimer.Start();
 	}
 
@@ -232,18 +234,26 @@ private void StartGame()
 		spawnTimer.Stop();
 		gameTimer.Stop();
 
+		Global global = GetNode<Global>("/root/Global");
+		var highscore = global.GetHighScore(gameName);
+
 		
 		shooterPanel.Visible = false;
 		winPanel.Visible = true;
 
-		earnedMoney = score;
+		if(score > highscore)
+			earnedMoney = (score - highscore)*5;
+		else
+			earnedMoney = 0;
+
 		moneyLabel.Text = $"+{earnedMoney} nok";
 		wynikLabel.Text = $"Wynik: {score}.";
 		
 
 		// Add earned money to the global state
-		Global global = GetNode<Global>("/root/Global");
 		global.AddMoney(earnedMoney);
+
+		global.SetHighScore(gameName, score);
 
 		// Display the result screen
 		GD.Print("Showing result screen");

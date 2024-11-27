@@ -8,6 +8,7 @@ public class QuizCiekawostki : Node
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
+
 		// Find the QuizGame instance in the scene
 		quizGame = GetNode<QuizGame>("QuizGame");
 		var backButton = GetNode<TextureButton>("Description/BackButton");
@@ -16,7 +17,7 @@ public class QuizCiekawostki : Node
 		// Set the question file path for history quiz
 		if (quizGame != null)
 		{
-			quizGame.SetQuestionFilePath("res://questions/ciekawostki_questions.json");
+			quizGame.SetQuestionFilePathAndGameName("res://questions/ciekawostki_questions.json", "quiz_ciekawostki");
 		}
 		else
 		{

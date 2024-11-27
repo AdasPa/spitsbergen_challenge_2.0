@@ -25,6 +25,7 @@ public class Intro3 : Node
 		animatedSprite.Connect("animation_finished", this, nameof(OnAnimationFinished));
 
 		// Połączenie przycisków
+		domek1Button.Connect("pressed", this, nameof(OnDomek1ButtonPressed));
 		domek2Button.Connect("pressed", this, nameof(OnDomek2ButtonPressed));
 	}
 
@@ -36,9 +37,16 @@ public class Intro3 : Node
 		domek3Button.Show();
 	}
 
+	private void OnDomek1ButtonPressed()
+	{
+		Global global = GetNode<Global>("/root/Global");
+		global.ResetProgress();
+	}
 	private void OnDomek2ButtonPressed()
 	{
 		// Zmiana sceny, załóżmy, że nazywa się NextScene.tscn
 		GetTree().ChangeScene("res://scenes/Intro4.tscn");
 	}
+
+
 }

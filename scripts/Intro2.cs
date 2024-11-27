@@ -8,9 +8,9 @@ public class Intro2 : Node
 
 	public override void _Ready()
 	{
-		// Znajdź węzeł AnimatedSprite i Button w drzewie sceny
-		animatedSprite = GetNode<AnimatedSprite>("AnimatedSprite");
-		dalejButton = GetNode<TextureButton>("AnimatedSprite/DalejButton");
+		//Znajdź węzeł AnimatedSprite i Button w drzewie sceny
+		animatedSprite = GetNode<AnimatedSprite>("Background/AnimatedSprite");
+		dalejButton = GetNode<TextureButton>("Background/DalejButton");
 		dalejButton.Hide();
 
 		animatedSprite.Play("Intro2");
@@ -28,6 +28,6 @@ public class Intro2 : Node
 	private void OnDalejButtonPressed()
 	{
 		// Zmiana sceny, załóżmy, że następna scena nazywa się NextScene.tscn
-		GetTree().ChangeScene("res://scenes/Intro3.tscn");
+		GetTree().ChangeScene("res://scenes/Intro4.tscn");
 	}
 }

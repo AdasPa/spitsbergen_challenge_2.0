@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public class Intro4 : Node
+public class GameOverScene1 : Node
 {
 	private AnimatedSprite animatedSprite;
 	private TextureButton dalejButton;
@@ -9,11 +9,11 @@ public class Intro4 : Node
 	public override void _Ready()
 	{
 		// Znajdź węzeł AnimatedSprite i Button w drzewie sceny
-		animatedSprite = GetNode<AnimatedSprite>("Background/AnimatedSprite");
+		animatedSprite = GetNode<AnimatedSprite>("Background/GameOverAnimation1");
 		dalejButton = GetNode<TextureButton>("Background/DalejButton");
 		dalejButton.Hide();
 
-		animatedSprite.Play("Intro4");
+		animatedSprite.Play("GameOverAnimation1");
 		animatedSprite.Connect("animation_finished", this, nameof(OnAnimationFinished));
 
 		dalejButton.Connect("pressed", this, nameof(OnDalejButtonPressed));
@@ -28,6 +28,6 @@ public class Intro4 : Node
 	private void OnDalejButtonPressed()
 	{
 		// Zmiana sceny, załóżmy, że następna scena nazywa się MainScene.tscn
-		GetTree().ChangeScene("res://scenes/MainScene.tscn");
+		GetTree().ChangeScene("res://scenes/GameOverScene2.tscn");
 	}
 }

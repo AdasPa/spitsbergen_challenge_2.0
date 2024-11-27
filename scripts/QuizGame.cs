@@ -10,6 +10,9 @@ public class QuizGame : Control
 	[Export]
 	public string questionFilePath = "res://questions/test_questions.json";
 
+	[Export]
+	public string gameName = "quiz";
+
 	private Label questionLabel;
 	private TextureButton[] answerButtons;
 	private Label[] answerLabels;
@@ -80,9 +83,10 @@ public class QuizGame : Control
 		sklepButton1.Connect("pressed", this, nameof(OnSklepButton1Pressed));
 	}
 	
-	public void SetQuestionFilePath(string path)
+	public void SetQuestionFilePathAndGameName(string path, string name)
 	{
 		questionFilePath = path;
+		gameName = name;
 		InitializeQuiz();
 	}
 
@@ -137,8 +141,115 @@ public class QuizGame : Control
 		}
 		else
 		{
-			GD.PrintErr($"File not found: {questionFilePath}");
+			//GD.PrintErr($"File not found: {questionFilePath}");
+
+			questions = new Array<Dictionary>()
+			{
+				new Dictionary() {
+					{"question", "Która planeta jest najbliższa Słońcu?"},
+					{"answers", new Array() {"Mars", "Ziemia", "Merkury", "Wenus"}},
+					{"correct", 2}
+				},
+				new Dictionary() {
+					{"question", "Która planeta jest znana jako Czerwona Planeta?"},
+					{"answers", new Array() {"Mars", "Jowisz", "Saturn", "Wenus"}},
+					{"correct", 0}
+				},
+				new Dictionary() {
+					{"question", "Który obiekt w kosmosie jest źródłem światła dla Ziemi?"},
+					{"answers", new Array() {"Księżyc", "Mars", "Słońce", "Kometa"}},
+					{"correct", 2}
+				},
+				new Dictionary() {
+					{"question", "Jak nazywa się naturalny satelita Ziemi?"},
+					{"answers", new Array() {"Mars", "Słońce", "Księżyc", "Pluton"}},
+					{"correct", 2}
+				},
+				new Dictionary() {
+					{"question", "Która planeta ma największą ilość pierścieni?"},
+					{"answers", new Array() {"Jowisz", "Saturn", "Uran", "Neptun"}},
+					{"correct", 1}
+				},
+				new Dictionary() {
+					{"question", "Kto był pierwszym człowiekiem na Księżycu?"},
+					{"answers", new Array() {"Yuri Gagarin", "Buzz Aldrin", "Neil Armstrong", "Michael Collins"}},
+					{"correct", 2}
+				},
+				new Dictionary() {
+					{"question", "Która planeta jest znana z Wielkiej Czerwonej Plamy?"},
+					{"answers", new Array() {"Mars", "Jowisz", "Saturn", "Uran"}},
+					{"correct", 1}
+				},
+				new Dictionary() {
+					{"question", "Która planeta jest największa w Układzie Słonecznym?"},
+					{"answers", new Array() {"Jowisz", "Saturn", "Uran", "Neptun"}},
+					{"correct", 0}
+				},
+				new Dictionary() {
+					{"question", "Jak nazywa się gwiazda najbliższa Ziemi?"},
+					{"answers", new Array() {"Proxima Centauri", "Sirius", "Alpha Centauri", "Słońce"}},
+					{"correct", 3}
+				},
+				new Dictionary() {
+					{"question", "Która planeta jest znana jako Błękitna Planeta?"},
+					{"answers", new Array() {"Mars", "Jowisz", "Ziemia", "Wenus"}},
+					{"correct", 2}
+				},
+				new Dictionary() {
+					{"question", "Która misja kosmiczna jako pierwsza wylądowała na Księżycu?"},
+					{"answers", new Array() {"Apollo 11", "Sputnik 1", "Viking 1", "Voyager 1"}},
+					{"correct", 0}
+				},
+				new Dictionary() {
+					{"question", "Który teleskop kosmiczny jest używany do obserwacji odległych galaktyk?"},
+					{"answers", new Array() {"Voyager 1", "Hubble", "Galileo", "Cassini"}},
+					{"correct", 1}
+				},
+				new Dictionary() {
+					{"question", "Która planeta ma najwięcej księżyców?"},
+					{"answers", new Array() {"Ziemia", "Mars", "Jowisz", "Saturn"}},
+					{"correct", 2}
+				},
+				new Dictionary() {
+					{"question", "Jak nazywa się mała planeta na skraju Układu Słonecznego?"},
+					{"answers", new Array() {"Mars", "Pluton", "Neptun", "Uran"}},
+					{"correct", 1}
+				},
+				new Dictionary() {
+					{"question", "Która planeta jest najgorętsza w Układzie Słonecznym?"},
+					{"answers", new Array() {"Merkury", "Mars", "Wenus", "Ziemia"}},
+					{"correct", 2}
+				},
+				new Dictionary() {
+					{"question", "Jak nazywa się miejsce, gdzie narodziły się gwiazdy?"},
+					{"answers", new Array() {"Czarna dziura", "Galaktyka", "Mgławica", "Kometa"}},
+					{"correct", 2}
+				},
+				new Dictionary() {
+					{"question", "Kto był pierwszym człowiekiem w kosmosie?"},
+					{"answers", new Array() {"Yuri Gagarin", "Buzz Aldrin", "Neil Armstrong", "Alan Shepard"}},
+					{"correct", 0}
+				},
+				new Dictionary() {
+					{"question", "Która planeta ma największą oś obrotu?"},
+					{"answers", new Array() {"Saturn", "Uran", "Neptun", "Jowisz"}},
+					{"correct", 1}
+				},
+				new Dictionary() {
+					{"question", "Jak nazywa się efekt, który powoduje rozszerzanie się wszechświata?"},
+					{"answers", new Array() {"Efekt Dopplera", "Efekt Hubble'a", "Teoria Wielkiego Wybuchu", "Efekt czarnej dziury"}},
+					{"correct", 1}
+				},
+				new Dictionary() {
+					{"question", "Która misja kosmiczna była pierwszą, która wysłała zdjęcia Marsa?"},
+					{"answers", new Array() {"Apollo 11", "Viking 1", "Voyager 1", "Pioneer 10"}},
+					{"correct", 1}
+				}
+			};
+
+			GD.Print("Questions loaded successfully");
 		}
+
 	}
 
 	private void ShuffleQuestions()
@@ -225,11 +336,18 @@ public class QuizGame : Control
 		// Hide the quiz panel and show the win panel
 		quizPanel.Visible = false;
 		winPanel.Visible = true;
+
+		// Add earned money to the global state
+		Global global = GetNode<Global>("/root/Global");
+		var highscore = global.GetHighScore(gameName);
 		
-		earnedMoney = correctAnswers*10;
+		if(correctAnswers > highscore)
+			earnedMoney = (correctAnswers - highscore)*20;
+		else
+			earnedMoney = 0;
 		
 		if (correctAnswers<=9)	wynikLabel.Text = $"0{correctAnswers}";
-		else	wynikLabel.Text = $"0{correctAnswers}";
+		else	wynikLabel.Text = $"{correctAnswers}";
 
 		if(maxQuestions <= 9)	questionsNumberLabel.Text = $"/0{maxQuestions}";
 		else	questionsNumberLabel.Text = $"/{maxQuestions}";
@@ -238,9 +356,12 @@ public class QuizGame : Control
 
 		moneyLabel.Text = $"+{earnedMoney} nok";
 
-		// Add earned money to the global state
-		Global global = GetNode<Global>("/root/Global");
+		
+
+		
 		global.AddMoney(earnedMoney);
+
+		global.SetHighScore(gameName, correctAnswers);
 
 		// Display the result screen
 		GD.Print("Showing result screen");

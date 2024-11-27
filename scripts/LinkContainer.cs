@@ -18,6 +18,8 @@ public class LinkContainer : Control
 	{
 		linkContainer = GetNode<VBoxContainer>("ScrollContainer/VBoxContainer");
 
+		//linkContainer.AddConstantOverride("separation", 0);
+
 		for (int i = 0; i < LinkTitles.Length; i++)
 		{
 			var linkComponent = (LinkComponent)GD.Load<PackedScene>("res://scenes/LinkComponent.tscn").Instance();
@@ -26,6 +28,17 @@ public class LinkContainer : Control
 			linkComponent.LinkURL = LinkURLs[i];
 
 			linkContainer.AddChild(linkComponent);
+
+			var spacer = new Control();
+			spacer.SizeFlagsVertical = (int)Control.SizeFlags.ShrinkCenter; // Kontroluje rozciąganie
+
+			if (i < LinkTitles.Length - 1)
+				spacer.RectMinSize = new Vector2(0, 240); // Odstęp 240
+			else
+				spacer.RectMinSize = new Vector2(0, 217); // Przed ostatnim elementem mniejszy odstęp, by uniknąć mnadmiarowej pustej przestrzeni
+				
+			linkContainer.AddChild(spacer);
+			
 		}
 	}
 }
