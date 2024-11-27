@@ -1,0 +1,102 @@
+[gd_scene load_steps=72 format=2]
+
+[ext_resource path="res://frames/outro/przewodniczka/9827.png" type="Texture" id=1]
+[ext_resource path="res://frames/outro/przewodniczka/9828.png" type="Texture" id=2]
+[ext_resource path="res://frames/outro/przewodniczka/9829.png" type="Texture" id=3]
+[ext_resource path="res://frames/outro/przewodniczka/9830.png" type="Texture" id=4]
+[ext_resource path="res://frames/outro/przewodniczka/9831.png" type="Texture" id=5]
+[ext_resource path="res://frames/outro/przewodniczka/9832.png" type="Texture" id=6]
+[ext_resource path="res://assets/backgrounds/background.png" type="Texture" id=7]
+[ext_resource path="res://frames/outro/przewodniczka/9873.png" type="Texture" id=8]
+[ext_resource path="res://frames/outro/przewodniczka/9874.png" type="Texture" id=9]
+[ext_resource path="res://frames/outro/przewodniczka/9877.png" type="Texture" id=10]
+[ext_resource path="res://frames/outro/przewodniczka/9878.png" type="Texture" id=11]
+[ext_resource path="res://frames/outro/przewodniczka/9871.png" type="Texture" id=12]
+[ext_resource path="res://frames/outro/przewodniczka/9881.png" type="Texture" id=13]
+[ext_resource path="res://frames/outro/przewodniczka/9876.png" type="Texture" id=14]
+[ext_resource path="res://frames/outro/przewodniczka/9882.png" type="Texture" id=15]
+[ext_resource path="res://frames/outro/przewodniczka/9872.png" type="Texture" id=16]
+[ext_resource path="res://frames/outro/przewodniczka/9870.png" type="Texture" id=17]
+[ext_resource path="res://frames/outro/przewodniczka/9875.png" type="Texture" id=18]
+[ext_resource path="res://frames/outro/przewodniczka/9879.png" type="Texture" id=19]
+[ext_resource path="res://frames/outro/przewodniczka/9884.png" type="Texture" id=20]
+[ext_resource path="res://frames/outro/przewodniczka/9885.png" type="Texture" id=21]
+[ext_resource path="res://frames/outro/przewodniczka/9889.png" type="Texture" id=22]
+[ext_resource path="res://frames/outro/przewodniczka/9890.png" type="Texture" id=23]
+[ext_resource path="res://frames/outro/przewodniczka/9891.png" type="Texture" id=24]
+[ext_resource path="res://frames/outro/przewodniczka/9886.png" type="Texture" id=25]
+[ext_resource path="res://frames/outro/przewodniczka/9887.png" type="Texture" id=26]
+[ext_resource path="res://frames/outro/przewodniczka/9869.png" type="Texture" id=27]
+[ext_resource path="res://frames/outro/przewodniczka/9888.png" type="Texture" id=28]
+[ext_resource path="res://frames/outro/przewodniczka/9880.png" type="Texture" id=29]
+[ext_resource path="res://frames/outro/przewodniczka/9868.png" type="Texture" id=30]
+[ext_resource path="res://frames/outro/przewodniczka/9883.png" type="Texture" id=31]
+[ext_resource path="res://frames/outro/przewodniczka/9854.png" type="Texture" id=32]
+[ext_resource path="res://frames/outro/przewodniczka/9861.png" type="Texture" id=33]
+[ext_resource path="res://frames/outro/przewodniczka/9862.png" type="Texture" id=34]
+[ext_resource path="res://frames/outro/przewodniczka/9845.png" type="Texture" id=35]
+[ext_resource path="res://frames/outro/przewodniczka/9855.png" type="Texture" id=36]
+[ext_resource path="res://frames/outro/przewodniczka/9837.png" type="Texture" id=37]
+[ext_resource path="res://frames/outro/przewodniczka/9848.png" type="Texture" id=38]
+[ext_resource path="res://frames/outro/przewodniczka/9857.png" type="Texture" id=39]
+[ext_resource path="res://frames/outro/przewodniczka/9859.png" type="Texture" id=40]
+[ext_resource path="res://frames/outro/przewodniczka/9839.png" type="Texture" id=41]
+[ext_resource path="res://frames/outro/przewodniczka/9864.png" type="Texture" id=42]
+[ext_resource path="res://frames/outro/przewodniczka/9836.png" type="Texture" id=43]
+[ext_resource path="res://frames/outro/przewodniczka/9860.png" type="Texture" id=44]
+[ext_resource path="res://frames/outro/przewodniczka/9834.png" type="Texture" id=45]
+[ext_resource path="res://frames/outro/przewodniczka/9847.png" type="Texture" id=46]
+[ext_resource path="res://frames/outro/przewodniczka/9838.png" type="Texture" id=47]
+[ext_resource path="res://frames/outro/przewodniczka/9863.png" type="Texture" id=48]
+[ext_resource path="res://frames/outro/przewodniczka/9852.png" type="Texture" id=49]
+[ext_resource path="res://frames/outro/przewodniczka/9865.png" type="Texture" id=50]
+[ext_resource path="res://frames/outro/przewodniczka/9842.png" type="Texture" id=51]
+[ext_resource path="res://frames/outro/przewodniczka/9866.png" type="Texture" id=52]
+[ext_resource path="res://frames/outro/przewodniczka/9840.png" type="Texture" id=53]
+[ext_resource path="res://frames/outro/przewodniczka/9851.png" type="Texture" id=54]
+[ext_resource path="res://frames/outro/przewodniczka/9853.png" type="Texture" id=55]
+[ext_resource path="res://frames/outro/przewodniczka/9867.png" type="Texture" id=56]
+[ext_resource path="res://frames/outro/przewodniczka/9841.png" type="Texture" id=57]
+[ext_resource path="res://frames/outro/przewodniczka/9835.png" type="Texture" id=58]
+[ext_resource path="res://frames/outro/przewodniczka/9843.png" type="Texture" id=59]
+[ext_resource path="res://frames/outro/przewodniczka/9846.png" type="Texture" id=60]
+[ext_resource path="res://frames/outro/przewodniczka/9849.png" type="Texture" id=61]
+[ext_resource path="res://frames/outro/przewodniczka/9850.png" type="Texture" id=62]
+[ext_resource path="res://frames/outro/przewodniczka/9833.png" type="Texture" id=63]
+[ext_resource path="res://frames/outro/przewodniczka/9856.png" type="Texture" id=64]
+[ext_resource path="res://frames/outro/przewodniczka/9858.png" type="Texture" id=65]
+[ext_resource path="res://frames/outro/przewodniczka/9844.png" type="Texture" id=66]
+[ext_resource path="res://assets/buttons/DalejPress.png" type="Texture" id=67]
+[ext_resource path="res://assets/buttons/DalejButton.png" type="Texture" id=68]
+[ext_resource path="res://assets/buttons/DalejHover.png" type="Texture" id=69]
+[ext_resource path="res://scripts/GameOverScene1.cs" type="Script" id=70]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 63 ), ExtResource( 45 ), ExtResource( 58 ), ExtResource( 43 ), ExtResource( 37 ), ExtResource( 47 ), ExtResource( 41 ), ExtResource( 53 ), ExtResource( 57 ), ExtResource( 51 ), ExtResource( 59 ), ExtResource( 66 ), ExtResource( 35 ), ExtResource( 60 ), ExtResource( 46 ), ExtResource( 38 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 54 ), ExtResource( 49 ), ExtResource( 55 ), ExtResource( 32 ), ExtResource( 36 ), ExtResource( 64 ), ExtResource( 39 ), ExtResource( 65 ), ExtResource( 40 ), ExtResource( 44 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 48 ), ExtResource( 42 ), ExtResource( 50 ), ExtResource( 52 ), ExtResource( 56 ), ExtResource( 30 ), ExtResource( 27 ), ExtResource( 17 ), ExtResource( 12 ), ExtResource( 16 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 18 ), ExtResource( 14 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 19 ), ExtResource( 29 ), ExtResource( 13 ), ExtResource( 15 ), ExtResource( 31 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 28 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ) ],
+"loop": false,
+"name": "GameOverAnimation1",
+"speed": 25.0
+} ]
+
+[node name="Node" type="Node"]
+script = ExtResource( 70 )
+
+[node name="Background" type="Sprite" parent="."]
+texture = ExtResource( 7 )
+centered = false
+
+[node name="GameOverAnimation1" type="AnimatedSprite" parent="Background"]
+position = Vector2( 80, 80 )
+frames = SubResource( 1 )
+animation = "GameOverAnimation1"
+centered = false
+
+[node name="DalejButton" type="TextureButton" parent="Background"]
+margin_left = 600.0
+margin_top = 824.0
+margin_right = 840.0
+margin_bottom = 944.0
+texture_normal = ExtResource( 68 )
+texture_pressed = ExtResource( 67 )
+texture_hover = ExtResource( 69 )

@@ -1,20 +1,110 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=80 format=2]
 
 [ext_resource path="res://assets/buttons/DalejButton.png" type="Texture" id=1]
-[ext_resource path="res://animations/Intro2.tres" type="SpriteFrames" id=2]
+[ext_resource path="res://assets/buttons/DalejHover.png" type="Texture" id=2]
 [ext_resource path="res://scripts/Intro2.cs" type="Script" id=3]
+[ext_resource path="res://assets/backgrounds/background.png" type="Texture" id=4]
+[ext_resource path="res://assets/buttons/DalejPress.png" type="Texture" id=5]
+[ext_resource path="res://frames/intro/sms/15.png" type="Texture" id=6]
+[ext_resource path="res://frames/intro/sms/10.png" type="Texture" id=7]
+[ext_resource path="res://frames/intro/sms/18.png" type="Texture" id=8]
+[ext_resource path="res://frames/intro/sms/14.png" type="Texture" id=9]
+[ext_resource path="res://frames/intro/sms/19.png" type="Texture" id=10]
+[ext_resource path="res://frames/intro/sms/01.png" type="Texture" id=11]
+[ext_resource path="res://frames/intro/sms/04.png" type="Texture" id=12]
+[ext_resource path="res://frames/intro/sms/17.png" type="Texture" id=13]
+[ext_resource path="res://frames/intro/sms/05.png" type="Texture" id=14]
+[ext_resource path="res://frames/intro/sms/22.png" type="Texture" id=15]
+[ext_resource path="res://frames/intro/sms/11.png" type="Texture" id=16]
+[ext_resource path="res://frames/intro/sms/16.png" type="Texture" id=17]
+[ext_resource path="res://frames/intro/sms/13.png" type="Texture" id=18]
+[ext_resource path="res://frames/intro/sms/09.png" type="Texture" id=19]
+[ext_resource path="res://frames/intro/sms/12.png" type="Texture" id=20]
+[ext_resource path="res://frames/intro/sms/20.png" type="Texture" id=21]
+[ext_resource path="res://frames/intro/sms/21.png" type="Texture" id=22]
+[ext_resource path="res://frames/intro/sms/07.png" type="Texture" id=23]
+[ext_resource path="res://frames/intro/sms/02.png" type="Texture" id=24]
+[ext_resource path="res://frames/intro/sms/03.png" type="Texture" id=25]
+[ext_resource path="res://frames/intro/sms/06.png" type="Texture" id=26]
+[ext_resource path="res://frames/intro/sms/08.png" type="Texture" id=27]
+[ext_resource path="res://frames/intro/sms/73.png" type="Texture" id=28]
+[ext_resource path="res://frames/intro/sms/40.png" type="Texture" id=29]
+[ext_resource path="res://frames/intro/sms/55.png" type="Texture" id=30]
+[ext_resource path="res://frames/intro/sms/49.png" type="Texture" id=31]
+[ext_resource path="res://frames/intro/sms/60.png" type="Texture" id=32]
+[ext_resource path="res://frames/intro/sms/63.png" type="Texture" id=33]
+[ext_resource path="res://frames/intro/sms/71.png" type="Texture" id=34]
+[ext_resource path="res://frames/intro/sms/47.png" type="Texture" id=35]
+[ext_resource path="res://frames/intro/sms/68.png" type="Texture" id=36]
+[ext_resource path="res://frames/intro/sms/52.png" type="Texture" id=37]
+[ext_resource path="res://frames/intro/sms/64.png" type="Texture" id=38]
+[ext_resource path="res://frames/intro/sms/66.png" type="Texture" id=39]
+[ext_resource path="res://frames/intro/sms/50.png" type="Texture" id=40]
+[ext_resource path="res://frames/intro/sms/65.png" type="Texture" id=41]
+[ext_resource path="res://frames/intro/sms/51.png" type="Texture" id=42]
+[ext_resource path="res://frames/intro/sms/43.png" type="Texture" id=43]
+[ext_resource path="res://frames/intro/sms/48.png" type="Texture" id=44]
+[ext_resource path="res://frames/intro/sms/58.png" type="Texture" id=45]
+[ext_resource path="res://frames/intro/sms/53.png" type="Texture" id=46]
+[ext_resource path="res://frames/intro/sms/67.png" type="Texture" id=47]
+[ext_resource path="res://frames/intro/sms/69.png" type="Texture" id=48]
+[ext_resource path="res://frames/intro/sms/59.png" type="Texture" id=49]
+[ext_resource path="res://frames/intro/sms/57.png" type="Texture" id=50]
+[ext_resource path="res://frames/intro/sms/62.png" type="Texture" id=51]
+[ext_resource path="res://frames/intro/sms/46.png" type="Texture" id=52]
+[ext_resource path="res://frames/intro/sms/42.png" type="Texture" id=53]
+[ext_resource path="res://frames/intro/sms/45.png" type="Texture" id=54]
+[ext_resource path="res://frames/intro/sms/54.png" type="Texture" id=55]
+[ext_resource path="res://frames/intro/sms/72.png" type="Texture" id=56]
+[ext_resource path="res://frames/intro/sms/44.png" type="Texture" id=57]
+[ext_resource path="res://frames/intro/sms/56.png" type="Texture" id=58]
+[ext_resource path="res://frames/intro/sms/61.png" type="Texture" id=59]
+[ext_resource path="res://frames/intro/sms/70.png" type="Texture" id=60]
+[ext_resource path="res://frames/intro/sms/41.png" type="Texture" id=61]
+[ext_resource path="res://frames/intro/sms/27.png" type="Texture" id=62]
+[ext_resource path="res://frames/intro/sms/24.png" type="Texture" id=63]
+[ext_resource path="res://frames/intro/sms/31.png" type="Texture" id=64]
+[ext_resource path="res://frames/intro/sms/25.png" type="Texture" id=65]
+[ext_resource path="res://frames/intro/sms/36.png" type="Texture" id=66]
+[ext_resource path="res://frames/intro/sms/39.png" type="Texture" id=67]
+[ext_resource path="res://frames/intro/sms/23.png" type="Texture" id=68]
+[ext_resource path="res://frames/intro/sms/29.png" type="Texture" id=69]
+[ext_resource path="res://frames/intro/sms/32.png" type="Texture" id=70]
+[ext_resource path="res://frames/intro/sms/34.png" type="Texture" id=71]
+[ext_resource path="res://frames/intro/sms/28.png" type="Texture" id=72]
+[ext_resource path="res://frames/intro/sms/35.png" type="Texture" id=73]
+[ext_resource path="res://frames/intro/sms/26.png" type="Texture" id=74]
+[ext_resource path="res://frames/intro/sms/30.png" type="Texture" id=75]
+[ext_resource path="res://frames/intro/sms/37.png" type="Texture" id=76]
+[ext_resource path="res://frames/intro/sms/33.png" type="Texture" id=77]
+[ext_resource path="res://frames/intro/sms/38.png" type="Texture" id=78]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 11 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 12 ), ExtResource( 14 ), ExtResource( 26 ), ExtResource( 23 ), ExtResource( 27 ), ExtResource( 19 ), ExtResource( 7 ), ExtResource( 16 ), ExtResource( 20 ), ExtResource( 18 ), ExtResource( 9 ), ExtResource( 6 ), ExtResource( 17 ), ExtResource( 13 ), ExtResource( 8 ), ExtResource( 10 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 15 ), ExtResource( 68 ), ExtResource( 63 ), ExtResource( 65 ), ExtResource( 74 ), ExtResource( 62 ), ExtResource( 72 ), ExtResource( 69 ), ExtResource( 75 ), ExtResource( 64 ), ExtResource( 70 ), ExtResource( 77 ), ExtResource( 71 ), ExtResource( 73 ), ExtResource( 66 ), ExtResource( 76 ), ExtResource( 78 ), ExtResource( 67 ), ExtResource( 29 ), ExtResource( 61 ), ExtResource( 53 ), ExtResource( 43 ), ExtResource( 57 ), ExtResource( 54 ), ExtResource( 52 ), ExtResource( 35 ), ExtResource( 44 ), ExtResource( 31 ), ExtResource( 40 ), ExtResource( 42 ), ExtResource( 37 ), ExtResource( 46 ), ExtResource( 55 ), ExtResource( 30 ), ExtResource( 58 ), ExtResource( 50 ), ExtResource( 45 ), ExtResource( 49 ), ExtResource( 32 ), ExtResource( 59 ), ExtResource( 51 ), ExtResource( 33 ), ExtResource( 38 ), ExtResource( 41 ), ExtResource( 39 ), ExtResource( 47 ), ExtResource( 36 ), ExtResource( 48 ), ExtResource( 60 ), ExtResource( 34 ), ExtResource( 56 ), ExtResource( 28 ) ],
+"loop": false,
+"name": "Intro2",
+"speed": 25.0
+} ]
 
 [node name="Node" type="Node"]
 script = ExtResource( 3 )
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( 720, 512 )
-frames = ExtResource( 2 )
-animation = "intro2"
+[node name="Background" type="Sprite" parent="."]
+texture = ExtResource( 4 )
+centered = false
 
-[node name="DalejButton" type="TextureButton" parent="AnimatedSprite"]
-margin_left = -120.0
-margin_top = 281.0
-margin_right = 120.0
-margin_bottom = 401.0
+[node name="DalejButton" type="TextureButton" parent="Background"]
+margin_left = 600.0
+margin_top = 824.0
+margin_right = 840.0
+margin_bottom = 944.0
 texture_normal = ExtResource( 1 )
+texture_pressed = ExtResource( 5 )
+texture_hover = ExtResource( 2 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Background"]
+position = Vector2( 80, 80 )
+frames = SubResource( 1 )
+animation = "Intro2"
+centered = false

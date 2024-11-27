@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://scripts/Product.cs" type="Script" id=1]
 [ext_resource path="res://fonts/PressStart2P_24.tres" type="DynamicFont" id=2]
@@ -8,6 +8,10 @@
 [ext_resource path="res://assets/products/coin2.png" type="Texture" id=6]
 [ext_resource path="res://assets/buttons/KupButton=Press.png" type="Texture" id=7]
 [ext_resource path="res://assets/buttons/KupButton=Disabled.png" type="Texture" id=8]
+[ext_resource path="res://assets/properties/done.png" type="Texture" id=9]
+[ext_resource path="res://assets/properties/Property 1=Hover-2.png" type="Texture" id=10]
+[ext_resource path="res://assets/properties/Property 1=Default-2.png" type="Texture" id=11]
+[ext_resource path="res://assets/properties/Property 1=Press-2.png" type="Texture" id=12]
 
 [sub_resource type="DynamicFont" id=1]
 size = 32
@@ -56,12 +60,58 @@ texture_hover = ExtResource( 5 )
 texture_disabled = ExtResource( 8 )
 
 [node name="LockOverlay" type="Control" parent="."]
+visible = false
 margin_right = 40.0
 margin_bottom = 40.0
 
+[node name="LockedPanel" type="ColorRect" parent="LockOverlay"]
+margin_right = 616.0
+margin_bottom = 208.0
+color = Color( 1, 1, 1, 0 )
+
+[node name="ZablokowaneLabel" type="Label" parent="LockOverlay"]
+margin_left = 240.0
+margin_top = 130.0
+margin_right = 504.0
+margin_bottom = 170.0
+custom_fonts/font = ExtResource( 2 )
+text = "ZABLOKOWANE"
+valign = 1
+
+[node name="ZnakZapytaniaButton" type="TextureButton" parent="LockOverlay"]
+margin_left = 544.0
+margin_top = 120.0
+margin_right = 584.0
+margin_bottom = 160.0
+texture_normal = ExtResource( 11 )
+texture_pressed = ExtResource( 12 )
+texture_hover = ExtResource( 10 )
+
 [node name="OutOfOrderOverlay" type="Control" parent="."]
+visible = false
 margin_right = 40.0
 margin_bottom = 40.0
+
+[node name="OutOfOrderPanel" type="ColorRect" parent="OutOfOrderOverlay"]
+margin_right = 616.0
+margin_bottom = 208.0
+color = Color( 0.513726, 0.627451, 0.819608, 0.498039 )
+
+[node name="WyprzedneLabel" type="Label" parent="OutOfOrderOverlay"]
+margin_left = 240.0
+margin_top = 130.0
+margin_right = 480.0
+margin_bottom = 170.0
+custom_fonts/font = ExtResource( 2 )
+text = "WYPRZEDANE"
+valign = 1
+
+[node name="WyprzedaneTexture" type="TextureRect" parent="OutOfOrderOverlay"]
+margin_left = 528.0
+margin_top = 120.0
+margin_right = 568.0
+margin_bottom = 160.0
+texture = ExtResource( 9 )
 
 [node name="Coin" type="TextureRect" parent="."]
 margin_left = 235.0
@@ -69,15 +119,3 @@ margin_top = 130.0
 margin_right = 275.0
 margin_bottom = 170.0
 texture = ExtResource( 6 )
-
-[node name="OutOfOrderPanel" type="ColorRect" parent="."]
-visible = false
-margin_right = 616.0
-margin_bottom = 208.0
-color = Color( 0.513726, 0.627451, 0.819608, 0.498039 )
-
-[node name="LockedPanel" type="ColorRect" parent="."]
-visible = false
-margin_right = 616.0
-margin_bottom = 208.0
-color = Color( 1, 1, 1, 0 )
