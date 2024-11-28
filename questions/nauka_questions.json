@@ -1,102 +1,147 @@
 [
     {
-        "question": "Kto wynalazł żarówkę?",
-        "answers": ["Nikola Tesla", "Alexander Graham Bell", "Thomas Edison", "Isaac Newton"],
-        "correct": 2
-    },
-    {
-        "question": "Kto jest odkrywcą Ameryki?",
-        "answers": ["Marco Polo", "Ferdynand Magellan", "Krzysztof Kolumb", "Vasco da Gama"],
-        "correct": 2
-    },
-    {
-        "question": "Kto wynalazł telefon?",
-        "answers": ["Nikola Tesla", "Alexander Graham Bell", "Thomas Edison", "Isaac Newton"],
+        "question": "Jakie buty piłkarze noszą na murawie?",
+        "answers": ["Trampki", "Korki", "Adidasy", "Szpilki"],
         "correct": 1
     },
     {
-        "question": "Kto odkrył penicylinę?",
-        "answers": ["Marie Curie", "Albert Einstein", "Alexander Fleming", "Isaac Newton"],
+        "question": "Ile osób gra w jednej drużynie piłkarskiej na boisku?",
+        "answers": ["9", "10", "11", "12"],
         "correct": 2
     },
     {
-        "question": "Kto jest wynalazcą silnika spalinowego?",
-        "answers": ["Karl Benz", "Henry Ford", "Nikola Tesla", "Thomas Edison"],
-        "correct": 0
-    },
-    {
-        "question": "Kto wynalazł pierwszy samolot?",
-        "answers": ["Alexander Graham Bell", "Nikola Tesla", "Bracia Wright", "Thomas Edison"],
-        "correct": 2
-    },
-    {
-        "question": "Kto odkrył teorię względności?",
-        "answers": ["Isaac Newton", "Albert Einstein", "Nikola Tesla", "Marie Curie"],
-        "correct": 1
-    },
-    {
-        "question": "Kto jest znany jako ojciec współczesnej fizyki?",
-        "answers": ["Isaac Newton", "Albert Einstein", "Nikola Tesla", "Thomas Edison"],
-        "correct": 0
-    },
-    {
-        "question": "Kto wynalazł pierwszy samochód?",
-        "answers": ["Henry Ford", "Karl Benz", "Nikola Tesla", "Thomas Edison"],
-        "correct": 1
-    },
-    {
-        "question": "Kto jest odkrywcą grawitacji?",
-        "answers": ["Albert Einstein", "Nikola Tesla", "Isaac Newton", "Thomas Edison"],
-        "correct": 2
-    },
-    {
-        "question": "Kto wynalazł dynamit?",
-        "answers": ["Nikola Tesla", "Thomas Edison", "Alexander Graham Bell", "Alfred Nobel"],
+        "question": "Jaki kolor ma kartka, którą sędzia pokazuje za faul?",
+        "answers": ["Niebieski", "Czerwony", "Zielony", "Żółty"],
         "correct": 3
     },
     {
-        "question": "Kto wynalazł telegraf?",
-        "answers": ["Alexander Graham Bell", "Nikola Tesla", "Samuel Morse", "Thomas Edison"],
-        "correct": 2
+        "question": "Ile trwa standardowy mecz piłkarski?",
+        "answers": ["60 minut", "70 minut", "80 minut", "90 minut"],
+        "correct": 3
     },
     {
-        "question": "Kto odkrył radioaktywność?",
-        "answers": ["Isaac Newton", "Albert Einstein", "Marie Curie", "Nikola Tesla"],
-        "correct": 2
+        "question": "Jak nazywa się osoba, która broni bramki?",
+        "answers": ["Napastnik", "Pomocnik", "Obrońca", "Bramkarz"],
+        "correct": 3
     },
     {
-        "question": "Kto jest wynalazcą telefonu komórkowego?",
-        "answers": ["Martin Cooper", "Nikola Tesla", "Thomas Edison", "Steve Jobs"],
+        "question": "Który piłkarz jest znany jako 'Messi'?",
+        "answers": ["Lionel", "Cristiano", "Neymar", "Luis"],
         "correct": 0
     },
     {
-        "question": "Kto wynalazł komputer?",
-        "answers": ["Charles Babbage", "Nikola Tesla", "Alan Turing", "Thomas Edison"],
+        "question": "Jaki kolor ma kartka, którą sędzia pokazuje za poważne przewinienie?",
+        "answers": ["Czarny", "Niebieski", "Czerwony", "Żółty"],
+        "correct": 2
+    },
+    {
+        "question": "Gdzie odbywają się Mistrzostwa Świata w piłce nożnej?",
+        "answers": ["W jednym kraju", "W jednym mieście", "W kilku krajach", "Na całym świecie"],
         "correct": 0
     },
     {
-        "question": "Kto wynalazł telewizor?",
-        "answers": ["Alexander Graham Bell", "Philo Farnsworth", "Nikola Tesla", "Thomas Edison"],
+        "question": "Jak nazywa się pole, w którym bramkarz może łapać piłkę rękoma?",
+        "answers": ["Pole karne", "Linia boczna", "Środek boiska", "Pole rożne"],
+        "correct": 0
+    },
+    {
+        "question": "Ile punktów zdobywa drużyna za zwycięstwo w meczu ligowym?",
+        "answers": ["1 punkt", "2 punkty", "3 punkty", "4 punkty"],
+        "correct": 2
+    },
+    {
+        "question": "Która część ciała nie może być używana do gry w piłkę nożną (poza bramkarzem)?",
+        "answers": ["Stopy", "Głowa", "Kolana", "Ręce"],
+        "correct": 3
+    },
+    {
+        "question": "Kto prowadzi mecz piłkarski?",
+        "answers": ["Trener", "Kapitan", "Sędzia", "Bramkarz"],
+        "correct": 2
+    },
+    {
+        "question": "Jakie są linie, które wyznaczają granice boiska?",
+        "answers": ["Linie boczne i linia końcowa", "Linie boczne i linia środkowa", "Linie końcowe i linia środkowa", "Linie rożne i linia końcowa"],
+        "correct": 0
+    },
+    {
+        "question": "Ile wynosi połowa meczu piłkarskiego?",
+        "answers": ["30 minut", "35 minut", "40 minut", "45 minut"],
+        "correct": 3
+    },
+    {
+        "question": "Jaka jest maksymalna liczba zmian zawodników w meczu?",
+        "answers": ["2", "3", "4", "5"],
         "correct": 1
     },
     {
-        "question": "Kto jest odkrywcą DNA?",
-        "answers": ["Isaac Newton", "James Watson i Francis Crick", "Nikola Tesla", "Albert Einstein"],
-        "correct": 1
-    },
-    {
-        "question": "Kto wynalazł komputer osobisty?",
-        "answers": ["Bill Gates", "Steve Jobs", "Charles Babbage", "Henry Ford"],
-        "correct": 2
-    },
-    {
-        "question": "Kto jest wynalazcą internetu?",
-        "answers": ["Tim Berners-Lee", "Bill Gates", "Steve Jobs", "Nikola Tesla"],
+        "question": "Które miejsce na boisku jest używane do wykonywania rzutów karnych?",
+        "answers": ["Punkt karny", "Środek boiska", "Pole karne", "Linia boczna"],
         "correct": 0
     },
     {
-        "question": "Kto wynalazł prąd zmienny?",
-        "answers": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Albert Einstein"],
+        "question": "Co robi sędzia, kiedy piłka przekroczy linię boczną?",
+        "answers": ["Rzut wolny", "Rzut karny", "Rzut rożny", "Rzut z autu"],
+        "correct": 3
+    },
+    {
+        "question": "Jaki jest kształt boiska piłkarskiego?",
+        "answers": ["Okrągły", "Kwadratowy", "Prostokątny", "Trójkątny"],
         "correct": 2
+    },
+    {
+        "question": "Jaka jest liczba bramek na boisku piłkarskim?",
+        "answers": ["1", "2", "3", "4"],
+        "correct": 1
+    },
+    {
+        "question": "Jak nazywa się turniej, w którym biorą udział drużyny z całego świata?",
+        "answers": ["Liga Mistrzów", "Mistrzostwa Europy", "Copa America", "Mistrzostwa Świata"],
+        "correct": 3
+    },
+    {
+        "question": "Co oznacza 'hat-trick'?",
+        "answers": ["Trzy bramki w jednym meczu", "Trzy żółte kartki", "Trzy zmiany", "Trzy remisy"],
+        "correct": 0
+    },
+    {
+        "question": "Co robi sędzia, kiedy piłka przekroczy linię końcową po dotknięciu zawodnika drużyny broniącej?",
+        "answers": ["Rzut rożny", "Rzut wolny", "Rzut z autu", "Rzut karny"],
+        "correct": 0
+    },
+    {
+        "question": "Jakie są kolory piłki nożnej?",
+        "answers": ["Czerwony i biały", "Niebieski i zielony", "Czarny i biały", "Zielony i żółty"],
+        "correct": 2
+    },
+    {
+        "question": "Ile drużyn bierze udział w jednym meczu piłkarskim?",
+        "answers": ["1", "2", "3", "4"],
+        "correct": 1
+    },
+    {
+        "question": "Jak nazywa się osoba, która trenuje drużynę piłkarską?",
+        "answers": ["Sędzia", "Kapitan", "Trener", "Bramkarz"],
+        "correct": 2
+    },
+    {
+        "question": "Co się dzieje, kiedy piłka przekroczy linię końcową po dotknięciu zawodnika drużyny atakującej?",
+        "answers": ["Rzut z autu", "Rzut wolny", "Rzut karny", "Rzut od bramki"],
+        "correct": 3
+    },
+    {
+        "question": "Jaka jest liczba zawodników w jednej drużynie piłkarskiej?",
+        "answers": ["9", "10", "11", "12"],
+        "correct": 2
+    },
+    {
+        "question": "Która część ciała jest najczęściej używana do kopania piłki?",
+        "answers": ["Głowa", "Ręce", "Kolana", "Stopy"],
+        "correct": 3
+    },
+    {
+        "question": "Jakie są dwa kolory kart sędziego?",
+        "answers": ["Czerwony i niebieski", "Żółty i czerwony", "Zielony i żółty", "Biały i czarny"],
+        "correct": 1
     }
 ]

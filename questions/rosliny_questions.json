@@ -63,7 +63,5 @@
         "question": "Która drużyna wygrała Mistrzostwa Świata FIFA w 2018 roku?",
         "answers": ["Brazylia", "Francja", "Niemcy", "Argentyna"],
         "correct": 1
-    },
-    {
-        "question": "Jakie są wymiary boiska do piłki nożnej?",
-        "answers": ["100
+    }
+]

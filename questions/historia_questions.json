@@ -1,102 +1,87 @@
 [
     {
-        "question": "Jak nazywa się największy lądolód na świecie?",
-        "answers": ["Lądolód Grenlandzki", "Lądolód Antarktyczny", "Lądolód Svalbard", "Lądolód Kanadyjski"],
-        "correct": 1
-    },
-    {
-        "question": "Które zwierzę jest symbolem Arktyki?",
-        "answers": ["Niedźwiedź polarny", "Wieloryb", "Pingwin", "Foka"],
-        "correct": 0
-    },
-    {
-        "question": "Jak nazywa się region położony wokół bieguna północnego?",
-        "answers": ["Antarktyka", "Tundra", "Arktyka", "Syberia"],
+        "question": "Za oficjalną datę odkrycia Spitsbergenu przez Europejczyków uznaje się:",
+        "answers": ["1194 rok", "XV wiek", "17 czerwca 1596 roku", "25 sierpnia 1941 roku"],
         "correct": 2
     },
     {
-        "question": "Która z tych wysp należy do Arktyki?",
-        "answers": ["Grenlandia", "Islandia", "Madagaskar", "Nowa Zelandia"],
-        "correct": 0
-    },
-    {
-        "question": "Jakie zjawisko naturalne często występuje w Arktyce w lecie?",
-        "answers": ["Burze piaskowe", "Dni polarne", "Susze", "Tsunami"],
-        "correct": 1
-    },
-    {
-        "question": "Jakie rośliny dominują w tundrze?",
-        "answers": ["Drzewa iglaste", "Mchy i porosty", "Krzewy", "Zioła"],
-        "correct": 1
-    },
-    {
-        "question": "Kto zamieszkuje Arktykę od wieków?",
-        "answers": ["Inuit", "Maorysi", "Aborygeni", "Sami"],
-        "correct": 0
-    },
-    {
-        "question": "Jakie są średnie temperatury w Arktyce latem?",
-        "answers": ["10-15 °C", "0-5 °C", "-20 do -10 °C", "-5 do 0 °C"],
-        "correct": 3
-    },
-    {
-        "question": "Jak nazywa się zjawisko topnienia lodowców w Arktyce?",
-        "answers": ["Deforestacja", "Degradacja", "Klimatyzacja", "Glacjologia"],
-        "correct": 1
-    },
-    {
-        "question": "Jakie zjawisko jest często obserwowane na niebie w Arktyce?",
-        "answers": ["Aurora Borealis", "Burze elektryczne", "Tornado", "Deszcze"],
-        "correct": 0
-    },
-    {
-        "question": "Które państwo ma największą część terytorium w Arktyce?",
-        "answers": ["Norwegia", "Rosja", "Kanada", "USA"],
-        "correct": 1
-    },
-    {
-        "question": "Jakie zwierzęta migrują do Arktyki w lecie?",
-        "answers": ["Słonie", "Sarny", "Ptaki", "Lwy"],
+        "question": "Kto jest uznawany za odkrywcę Spitsbergenu w 1596 roku?",
+        "answers": ["Normanowie", "Pomorcy", "Willem Barents i towarzyszący mu Holendrzy", "Frederick George Jackson"],
         "correct": 2
     },
     {
-        "question": "Jakie są główne zagrożenia dla Arktyki?",
-        "answers": ["Zanieczyszczenia i zmiany klimatyczne", "Dym i hałas", "Odwierty ropy", "Wojny"],
-        "correct": 0
+        "question": "Jaką rolę odgrywał Spitsbergen w XIX i XX wieku?",
+        "answers": ["Był miejscem wydobycia ropy naftowej", "Punktem startowym dla wypraw podbiegunowych", "Ośrodkiem handlu futrami", "Obszarem kolonizowanym przez Niemców"],
+        "correct": 1
     },
     {
-        "question": "Jak nazywa się popularna tradycja Inuitów?",
-        "answers": ["Sztuka lodowa", "Hunting", "Rybactwo", "Malarstwo"],
-        "correct": 0
+        "question": "Dlaczego w Longyearbyen obowiązuje “zakaz umierania”?",
+        "answers": ["Z powodu braku miejsca na cmentarzach", "Z powodu wieloletniej zmarzliny uniemożliwiającej rozkład zwłok", "Z powodu lokalnych wierzeń kulturowych", "Z powodu zakazu religijnego"],
+        "correct": 1
     },
     {
-        "question": "Jakie zjawisko atmosferyczne wpływa na Arktykę?",
-        "answers": ["Monsun", "Cyklon", "Wiatry polarne", "Tsunami"],
+        "question": "Co było jednym z powodów obaw związanych z pochówkiem w Longyearbyen?",
+        "answers": ["Niemożność zapewnienia godnych warunków pogrzebowych", "Ryzyko rozprzestrzeniania się wirusów śmiertelnych chorób", "Brak możliwości budowy cmentarza", "Zamarzanie ciał w lodzie"],
+        "correct": 1
+    },
+    {
+        "question": "Jakie wydarzenie w 1918 roku wpłynęło na decyzje dotyczące niemożności pochówku w Longyearbyen?",
+        "answers": ["Epidemia czarnej śmierci", "Epidemia grypy hiszpanki", "Wojna na Svalbardzie", "Masowe topnienie lodowców"],
+        "correct": 1
+    },
+    {
+        "question": "Co dzieje się obecnie z osobami śmiertelnie chorymi w Longyearbyen?",
+        "answers": ["Są pochowane na lokalnym cmentarzu", "Są transportowane i chowane poza archipelagiem Svalbard", "Są kremowane w Longyearbyen", "Są pozostawiane w zmarzlinie"],
+        "correct": 1
+    },
+    {
+        "question": "Kiedy cmentarz w Longyearbyen przestał być używany?",
+        "answers": ["W 1918 roku", "W latach 50. XX wieku", "W 1896 roku", "W czasie II wojny światowej"],
+        "correct": 1
+    },
+    {
+        "question": "Który traktat reguluje status prawny Spitsbergenu?",
+        "answers": ["Traktat Arktyczny", "Traktat Spitsbergeński", "Traktat Barentsa", "Traktat Longyearbyen"],
+        "correct": 1
+    },
+    {
+        "question": "Jakie prawa przyznaje Traktat Spitsbergeński państwom-sygnatariuszom?",
+        "answers": ["Wyłączność na prowadzenie działalności gospodarczej", "Możliwość korzystania z zasobów naturalnych i prowadzenia badań naukowych", "Prowadzenie działalności militarnej na terenie Svalbardu", "Przyznanie terytorium każdemu państwu-sygnatariuszowi"],
+        "correct": 1
+    },
+    {
+        "question": "Które państwa wykorzystują zasoby naturalne Svalbardu na podstawie Traktatu Spitsbergeńskiego?",
+        "answers": ["Norwegia i Japonia", "Norwegia i Rosja", "Norwegia i Polska", "Rosja i Dania"],
+        "correct": 1
+    },
+    {
+        "question": "Kto sprawuje władzę na archipelagu Svalbard?",
+        "answers": ["Prezydent Norwegii", "Wysoki Komisarz ONZ", "Gubernator z siedzibą w Longyearbyen", "Norweski minister spraw zagranicznych"],
         "correct": 2
     },
     {
-        "question": "Jakie znane miasta znajdują się w Arktyce?",
-        "answers": ["Reykjavik", "Longyearbyen", "Oslo", "Wellington"],
+        "question": "Kiedy Polska przystąpiła do Traktatu Spitsbergeńskiego?",
+        "answers": ["1920", "1925", "1931", "1946"],
+        "correct": 2
+    },
+    {
+        "question": "Jakie zwierzęta są zakazane w Longyearbyen?",
+        "answers": ["Psy", "Koty", "Renifery", "Foki"],
         "correct": 1
     },
     {
-        "question": "Co jest głównym źródłem pożywienia dla niedźwiedzi polarnych?",
-        "answers": ["Ryby", "Foki", "Myszy", "Ptaki"],
+        "question": "Jaką funkcję pełniło Longyearbyen w XVI-XVIII wieku?",
+        "answers": ["Było centrum administracyjnym Norwegii", "Było osadą myśliwską", "Było bazą wielorybniczą", "Było portem wojskowym"],
         "correct": 1
     },
     {
-        "question": "Jak nazywa się największa morska fauna Arktyki?",
-        "answers": ["Lwy morskie", "Wieloryby", "Foki", "Rekiny"],
+        "question": "Kiedy odkryto bogate złoża węgla kamiennego na Svalbardzie?",
+        "answers": ["W XVI wieku", "W XVIII wieku", "W XIX wieku", "W XX wieku"],
+        "correct": 2
+    },
+    {
+        "question": "Dlaczego mieszkańcy Longyearbyen są zobowiązani do noszenia broni?",
+        "answers": ["Aby polować na renifery", "Aby chronić się przed niedźwiedziami polarnymi", "Aby zapobiegać przestępstwom", "Aby uczestniczyć w lokalnych zawodach strzeleckich"],
         "correct": 1
-    },
-    {
-        "question": "Jakie zasoby naturalne znajdują się w Arktyce?",
-        "answers": ["Złoto", "Ropa naftowa", "Węgiel", "Wszystkie powyższe"],
-        "correct": 3
-    },
-    {
-        "question": "Jak nazywa się zjawisko, które powoduje zanik lodowców?",
-        "answers": ["Globalne ocieplenie", "El Niño", "Zimowy efekt", "Roczne wahania"],
-        "correct": 0
     }
 ]

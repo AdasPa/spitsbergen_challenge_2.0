@@ -1,102 +1,97 @@
 [
     {
-        "question": "Która planeta jest najbliższa Słońcu?",
-        "answers": ["Mars", "Ziemia", "Merkury", "Wenus"],
+        "question": "Które miasto na Spitsbergenie jest największe pod względem liczby mieszkańców?",
+        "answers": ["Pyramiden", "Barentsburg", "Longyearbyen", "Oslo"],
         "correct": 2
     },
     {
-        "question": "Która planeta jest znana jako Czerwona Planeta?",
-        "answers": ["Mars", "Jowisz", "Saturn", "Wenus"],
+        "question": "Co wpływa na łagodniejszy klimat Spitsbergenu w porównaniu do innych obszarów Arktyki?",
+        "answers": ["Opady śniegu", "Traktat Svalbardzki", "Ciepły prąd morski Golfsztrom", "Bliskość Norwegii"],
+        "correct": 2
+    },
+    {
+        "question": "W której z poniższych osad wydobywano węgiel do 1998 roku?",
+        "answers": ["Longyearbyen", "Barentsburg", "Pyramiden", "Austfonna"],
+        "correct": 2
+    },
+    {
+        "question": "W której z poniższych osad zaczęto wydobywać węgiel najwcześniej?",
+        "answers": ["Longyearbyen", "Barentsburg", "Pyramiden", "Sveagruva"],
         "correct": 0
     },
     {
-        "question": "Który obiekt w kosmosie jest źródłem światła dla Ziemi?",
-        "answers": ["Księżyc", "Mars", "Słońce", "Kometa"],
-        "correct": 2
-    },
-    {
-        "question": "Jak nazywa się naturalny satelita Ziemi?",
-        "answers": ["Mars", "Słońce", "Księżyc", "Pluton"],
-        "correct": 2
-    },
-    {
-        "question": "Która planeta ma największą ilość pierścieni?",
-        "answers": ["Jowisz", "Saturn", "Uran", "Neptun"],
+        "question": "Czym jest albedo?",
+        "answers": ["Miara wilgotności powietrza na danym obszarze", "Miara odbijania promieniowania słonecznego przez powierzchnię", "Wskaźnik intensywności wiatru słonecznego", "Jednostka ciśnienia atmosferycznego"],
         "correct": 1
     },
     {
-        "question": "Kto był pierwszym człowiekiem na Księżycu?",
-        "answers": ["Yuri Gagarin", "Buzz Aldrin", "Neil Armstrong", "Michael Collins"],
+        "question": "Jakie jest główne skutki spadku albedo na Ziemi?",
+        "answers": ["Zwiększone odbijanie energii słonecznej", "Ograniczenie absorpcji energii przez powierzchnię", "Większe pochłanianie energii słonecznej i wzrost temperatury", "Stabilizacja klimatu w regionach polarnych"],
         "correct": 2
     },
     {
-        "question": "Która planeta jest znana z Wielkiej Czerwonej Plamy?",
-        "answers": ["Mars", "Jowisz", "Saturn", "Uran"],
+        "question": "Na czym polega zjawisko arktycznego wzmocnienia?",
+        "answers": ["Na spadku temperatury w Arktyce w porównaniu do reszty świata", "Na większym wzroście temperatury w Arktyce w porównaniu do średniej globalnej", "Na równomiernym wzroście temperatury na całej Ziemi", "Na stabilizacji klimatu w regionach polarnych"],
         "correct": 1
     },
     {
-        "question": "Która planeta jest największa w Układzie Słonecznym?",
-        "answers": ["Jowisz", "Saturn", "Uran", "Neptun"],
+        "question": "Co jest jednym z głównych powodów arktycznego wzmocnienia?",
+        "answers": ["Zwiększona liczba burz w Arktyce", "Utrata lodu morskiego i zmniejszenie albedo", "Zmniejszona ilość pary wodnej w atmosferze", "Zwiększona liczba chmur w tropikach"],
+        "correct": 1
+    },
+    {
+        "question": "Jak zmniejszenie powierzchni lodu morskiego wpływa na temperaturę Arktyki?",
+        "answers": ["Zwiększa albedo i obniża temperaturę", "Powoduje większą absorpcję ciepła przez ocean i wzrost temperatury", "Powoduje odbijanie większej ilości promieniowania słonecznego", "Stabilizuje temperaturę w Arktyce"],
+        "correct": 1
+    },
+    {
+        "question": "Jak burze wpływają na globalne przepływy ciepła?",
+        "answers": ["Wysyłają ciepło z wyższych szerokości geograficznych do tropików", "Przenoszą ciepło z powierzchni do wyższych poziomów atmosfery", "Ograniczają wzrost temperatury w regionach polarnych", "Powodują zwiększenie albedo powierzchni Ziemi"],
+        "correct": 1
+    },
+    {
+        "question": "Dlaczego wzrost temperatury w Arktyce jest dwukrotnie większy niż średnia globalna?",
+        "answers": ["Z powodu ciągłego zamarzania lodu morskiego", "Z powodu zmniejszającej się powierzchni lodu, większej absorpcji ciepła i przepływów atmosferycznych", "Z powodu braku burz w regionie Arktyki", "Z powodu zwiększonej ilości promieniowania słonecznego w regionach polarnych"],
+        "correct": 1
+    },
+    {
+        "question": "Jakie błędne przekonanie o Morzu Arktycznym istniało jeszcze w XIX wieku?",
+        "answers": ["Że jest zamarznięte przez cały rok", "Że znajduje się tam wiele aktywnych wulkanów", "Że jest wolne od lodów i obfituje w zwierzęta", "Że nie jest połączone z Oceanem Arktycznym"],
+        "correct": 2
+    },
+    {
+        "question": "Ile wysp wchodzi w skład archipelagu Svalbard?",
+        "answers": ["5", "15", "Około 60", "Ponad 100"],
+        "correct": 2
+    },
+    {
+        "question": "Która z poniższych NIE jest wyspą wchodzącą w skład archipelagu Svalbard?",
+        "answers": ["Spitsbergen", "Nordaustlandet", "Austfonna", "Edgeøya"],
+        "correct": 2
+    },
+    {
+        "question": "Jakie są średnie temperatury latem na Spitsbergenie?",
+        "answers": ["15–20°C", "10–15°C", "0–5°C", "-10–0°C"],
+        "correct": 2
+    },
+    {
+        "question": "Jakie są średnie temperatury zimą na Spitsbergenie?",
+        "answers": ["-5°C", "-10°C", "-20°C", "-30°C"],
+        "correct": 2
+    },
+    {
+        "question": "Kiedy rozpoczyna się noc polarna na Spitsbergenie?",
+        "answers": ["We wrześniu", "W październiku", "W listopadzie", "W grudniu"],
+        "correct": 1
+    },
+    {
+        "question": "Jak długo trwa dzień polarny na Spitsbergenie?",
+        "answers": ["Około miesiąc", "Około 3 miesiące", "Około 5 miesięcy", "Cały rok"],
+        "correct": 2
+    },
+    {
+        "question": "Jaki rodzaj klimatu charakteryzuje Spitsbergen?",
+        "answers": ["Klimat tundrowy", "Klimat umiarkowany morski", "Klimat polarny", "Klimat kontynentalny"],
         "correct": 0
-    },
-    {
-        "question": "Jak nazywa się gwiazda najbliższa Ziemi?",
-        "answers": ["Proxima Centauri", "Sirius", "Alpha Centauri", "Słońce"],
-        "correct": 3
-    },
-    {
-        "question": "Która planeta jest znana jako Błękitna Planeta?",
-        "answers": ["Mars", "Jowisz", "Ziemia", "Wenus"],
-        "correct": 2
-    },
-    {
-        "question": "Która misja kosmiczna jako pierwsza wylądowała na Księżycu?",
-        "answers": ["Apollo 11", "Sputnik 1", "Viking 1", "Voyager 1"],
-        "correct": 0
-    },
-    {
-        "question": "Który teleskop kosmiczny jest używany do obserwacji odległych galaktyk?",
-        "answers": ["Voyager 1", "Hubble", "Galileo", "Cassini"],
-        "correct": 1
-    },
-    {
-        "question": "Która planeta ma najwięcej księżyców?",
-        "answers": ["Ziemia", "Mars", "Jowisz", "Saturn"],
-        "correct": 2
-    },
-    {
-        "question": "Jak nazywa się mała planeta na skraju Układu Słonecznego?",
-        "answers": ["Mars", "Pluton", "Neptun", "Uran"],
-        "correct": 1
-    },
-    {
-        "question": "Która planeta jest najgorętsza w Układzie Słonecznym?",
-        "answers": ["Merkury", "Mars", "Wenus", "Ziemia"],
-        "correct": 2
-    },
-    {
-        "question": "Jak nazywa się miejsce, gdzie narodziły się gwiazdy?",
-        "answers": ["Czarna dziura", "Galaktyka", "Mgławica", "Kometa"],
-        "correct": 2
-    },
-    {
-        "question": "Kto był pierwszym człowiekiem w kosmosie?",
-        "answers": ["Yuri Gagarin", "Buzz Aldrin", "Neil Armstrong", "Alan Shepard"],
-        "correct": 0
-    },
-    {
-        "question": "Która planeta ma największą oś obrotu?",
-        "answers": ["Saturn", "Uran", "Neptun", "Jowisz"],
-        "correct": 1
-    },
-    {
-        "question": "Jak nazywa się efekt, który powoduje rozszerzanie się wszechświata?",
-        "answers": ["Efekt Dopplera", "Efekt Hubble'a", "Teoria Wielkiego Wybuchu", "Efekt czarnej dziury"],
-        "correct": 1
-    },
-    {
-        "question": "Która misja kosmiczna była pierwszą, która wysłała zdjęcia Marsa?",
-        "answers": ["Apollo 11", "Viking 1", "Voyager 1", "Pioneer 10"],
-        "correct": 1
     }
 ]

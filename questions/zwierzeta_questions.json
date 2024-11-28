@@ -1,102 +1,377 @@
 [
     {
-        "question": "Kto jest znany jako król rock and rolla?",
-        "answers": ["Elvis Presley", "Michael Jackson", "Freddie Mercury", "John Lennon"],
+        "question": "Do jakiego rzędu należy alczyk?",
+        "answers": ["Wróblowe", "Siewkowe", "Drzewice", "Pelikanowe"],
+        "correct": 1
+    },
+    {
+        "question": "Jak nazywa się rodzina, do której należy alczyk?",
+        "answers": ["Kaczkowate", "Alki", "Mewy", "Kormorany"],
+        "correct": 1
+    },
+    {
+        "question": "Jakie jest naukowe określenie rodzaju, do którego należy alczyk?",
+        "answers": ["Uria", "Alca", "Fratercula", "Alczyk"],
+        "correct": 3
+    },
+    {
+        "question": "Gdzie gniazduje alczyk?",
+        "answers": ["W lasach deszczowych", "W strefach brzegowych wysp na Oceanie Arktycznym", "Na pustyniach", "W miejskich parkach"],
+        "correct": 1
+    },
+    {
+        "question": "Jaką głębokość może osiągnąć alczyk podczas nurkowania?",
+        "answers": ["10-20 m", "30-50 m", "60-70 m", "80-90 m"],
+        "correct": 1
+    },
+    {
+        "question": "Co jest głównym pożywieniem alczyka?",
+        "answers": ["Ryby", "Zooplankton morski", "Rośliny wodne", "Ssaki morskie"],
+        "correct": 1
+    },
+    {
+        "question": "Jakie są naturalne zagrożenia dla alczyka?",
+        "answers": ["Wilki i niedźwiedzie", "Lisy polarne i mewy blade", "Rekiny i delfiny", "Węże i jastrzębie"],
+        "correct": 1
+    },
+    {
+        "question": "Jaką długość ma alczyk?",
+        "answers": ["Ok. 10 cm", "Ok. 20 cm", "Ok. 30 cm", "Ok. 40 cm"],
+        "correct": 1
+    },
+    {
+        "question": "Jaka jest masa ciała alczyka?",
+        "answers": ["50-100 g", "100-150 g", "160-200 g", "250-300 g"],
+        "correct": 2
+    },
+    {
+        "question": "Jaką rozpiętość skrzydeł ma alczyk?",
+        "answers": ["Ok. 20 cm", "Ok. 30 cm", "Ok. 40 cm", "Ok. 50 cm"],
+        "correct": 2
+    },
+    {
+        "question": "Jakie są kolory upierzenia alczyka?",
+        "answers": ["Brązowy i biały", "Czarny i biały", "Szary i biały", "Zielony i żółty"],
+        "correct": 1
+    },
+    {
+        "question": "Czy alczyk wykazuje dymorfizm płciowy?",
+        "answers": ["Tak", "Nie"],
+        "correct": 1
+    },
+    {
+        "question": "Jak liczna jest populacja alczyka?",
+        "answers": ["Około 10 milionów par lęgowych", "Ponad 37 milionów par lęgowych", "Około 50 milionów par lęgowych", "Ponad 100 milionów par lęgowych"],
+        "correct": 1
+    },
+    {
+        "question": "W jakim regionie świata alczyk jest gatunkiem endemicznym?",
+        "answers": ["Antarktyda", "Basen Arktyczny", "Tropikalne lasy Ameryki Południowej", "Wyspy Pacyfiku"],
+        "correct": 1
+    },
+{
+        "question": "Jakiej wielkości są bernikle białolice?",
+        "answers": ["30-40 cm długości, waga 0,5-1 kg", "55-70 cm długości, waga 1-2,25 kg", "70-85 cm długości, waga 2,5-3 kg", "40-55 cm długości, waga 0,75-1,5 kg"],
+        "correct": 1
+    },
+    {
+        "question": "Gdzie zamieszkują poszczególne populacje bernikli białolicych?",
+        "answers": ["Północna Ameryka, Europa Zachodnia, Azja", "Północno-wschodnia Grenlandia, Svalbard, północno-zachodnia Rosja i region bałtycki", "Południowa Afryka, Australia, Antarktyda", "Indie, Chiny, Japonia"],
+        "correct": 1
+    },
+    {
+        "question": "Gdzie zimują bernikle białolice?",
+        "answers": ["Północno-wschodnia Azja", "Południowa Ameryka", "Północno-zachodnia Europa", "Środkowa Afryka"],
+        "correct": 2
+    },
+    {
+        "question": "Jakie cechy upierzenia mają bernikle białolice?",
+        "answers": ["Czoło i boki głowy czarne, reszta głowy biała", "Grzbiet i pokrywy skrzydłowe popielate z czarnymi pręgami, dziób krótki, czarny", "Czoło i boki głowy białe, reszta głowy, szyja oraz górna część piersi czarne", "Dziób długi, czerwony"],
+        "correct": 2
+    },
+    {
+        "question": "Co składa się na dietę bernikli białolicych?",
+        "answers": ["Ryby i owady", "Liście, łodygi, korzenie, nasiona", "Małe ssaki i ptaki", "Jagody i owoce"],
+        "correct": 1
+    },
+    {
+        "question": "Jakie jest zachowanie kolonijne bernikli białolicych?",
+        "answers": ["Żyją samotnie, migrują pojedynczo", "Formują liczne kolonie, migrują w stadach liczących setki sztuk", "Żyją w małych grupach rodzinnych, nie migrują", "Formują małe kolonie, migrują w parach"],
+        "correct": 1
+    },
+    {
+        "question": "Ile jaj składa samica bernikli białolicych i jak długo je wysiaduje?",
+        "answers": ["2-3 jaja, wysiaduje 15 dni", "4-5 jaj, wysiaduje 25 dni", "6-7 jaj, wysiaduje 30 dni", "8-9 jaj, wysiaduje 20 dni"],
+        "correct": 1
+    },
+    {
+        "question": "Gdzie bernikle białolice budują swoje gniazda i dlaczego?",
+        "answers": ["Na drzewach, aby uniknąć powodzi", "W norach ziemnych, aby chronić się przed wiatrem", "Na wysokich klifach, aby chronić się przed drapieżnikami", "Na wodzie, aby być bliżej pożywienia"],
+        "correct": 2
+    },
+    {
+        "question": "Jakie dramatyczne zdarzenie ma miejsce kilka dni po wylęgu piskląt bernikli białolicych?",
+        "answers": ["Muszą wyskoczyć z gniazd, aby znaleźć jedzenie i przyłączyć się do rodziców", "Pisklęta muszą nauczyć się pływać, aby przeżyć", "Rodzice opuszczają gniazdo, zostawiając pisklęta same", "Pisklęta muszą przetrwać pierwszy lot, aby uniknąć drapieżników"],
         "correct": 0
     },
     {
-        "question": "Który instrument ma klawisze i struny?",
-        "answers": ["Gitara", "Flet", "Pianino", "Bęben"],
+        "question": "Jak bernikle białolice były postrzegane w średniowieczu i dlaczego?",
+        "answers": ["Uważano je za ptaki drapieżne, ponieważ polowały na inne ptaki", "Uważano je za ryby, ponieważ wierzono, że wyrastają ze skorupiaków", "Uważano je za święte, ponieważ były rzadko widziane", "Uważano je za magiczne stworzenia, ponieważ miały niezwykłe zdolności"],
+        "correct": 1
+    },
+    {
+        "question": "Do jakiej rodziny należy narwal?",
+        "answers": ["Delfinowate", "Narwalowate", "Wielorybowate", "Fokowate"],
+        "correct": 1
+    },
+    {
+        "question": "Jaki jest drugi żyjący gatunek z rodziny narwalowatych?",
+        "answers": ["Orka", "Foka grenlandzka", "Wal biały", "Wieloryb grenlandzki"],
         "correct": 2
     },
     {
-        "question": "Która grupa muzyczna jest znana z hitu 'Yellow Submarine'?",
-        "answers": ["The Rolling Stones", "The Beatles", "Queen", "Nirvana"],
-        "correct": 1
-    },
-    {
-        "question": "Kto skomponował 'Dla Elizy'?",
-        "answers": ["Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Ludwig van Beethoven", "Antonio Vivaldi"],
+        "question": "Gdzie zamieszkuje narwal?",
+        "answers": ["Pacyfik", "Atlantyk", "Arktyka", "Antarktyka"],
         "correct": 2
     },
     {
-        "question": "Jak nazywa się osoba, która dyryguje orkiestrą?",
-        "answers": ["Kompozytor", "Dyrygent", "Pianista", "Perkusista"],
+        "question": "Jakie jest znaczenie nazwy narwala w języku Inuitów?",
+        "answers": ["Ten, który nurkuje głęboko", "Ten, który celuje w niebo", "Ten, który poluje na ryby", "Ten, który żyje w lodzie"],
         "correct": 1
     },
     {
-        "question": "Który z poniższych instrumentów jest instrumentem strunowym?",
-        "answers": ["Trąbka", "Skrzypce", "Flet", "Bęben"],
+        "question": "Co jest rozwiniętym przednim lewym zębem narwala?",
+        "answers": ["Płetwa", "Róg", "Ogon", "Czułek"],
         "correct": 1
     },
     {
-        "question": "Kto jest znany jako król popu?",
-        "answers": ["Elvis Presley", "Michael Jackson", "Freddie Mercury", "John Lennon"],
+        "question": "Jak zmienia się róg narwala w miarę jego starzenia się?",
+        "answers": ["Staje się pusty w środku", "Ulega zwapnieniu", "Zanika", "Zwiększa swoją długość"],
         "correct": 1
     },
     {
-        "question": "Która z poniższych osób była znanym kompozytorem muzyki klasycznej?",
-        "answers": ["Wolfgang Amadeus Mozart", "Jimi Hendrix", "Elton John", "Taylor Swift"],
+        "question": "Ile przeciętnie waży róg narwala?",
+        "answers": ["5 kg", "10 kg", "15 kg", "20 kg"],
+        "correct": 1
+    },
+    {
+        "question": "Czy samice narwali mogą mieć rogi?",
+        "answers": ["Nie, nigdy", "Tak, ale bardzo rzadko", "Tak, zazwyczaj pojedyncze", "Tak, zazwyczaj podwójne"],
+        "correct": 2
+    },
+    {
+        "question": "Jakie właściwości posiada róg narwala?",
+        "answers": ["Termiczne", "Magnetyczne", "Sensoryczne", "Ozdobne"],
+        "correct": 2
+    },
+    {
+        "question": "Co zaobserwowano podczas eksperymentu Narwhal Discoveries?",
+        "answers": ["Róg narwala jest pusty w środku", "Róg narwala ma właściwości sensoryczne", "Róg narwala jest cięższy niż myślano", "Róg narwala jest używany do polowania"],
+        "correct": 1
+    },
+    {
+        "question": "Z czego składa się dieta narwali?",
+        "answers": ["Plankton i małe ryby", "Ryby, kałamarnice i krewetki", "Kraby i małże", "Glony i rośliny morskie"],
+        "correct": 1
+    },
+    {
+        "question": "Gdzie narwale zazwyczaj żerują?",
+        "answers": ["Blisko powierzchni", "Na średnich głębokościach", "Na głębokich wodach, blisko dna", "W płytkich zatokach"],
+        "correct": 2
+    },
+    {
+        "question": "Na jaką głębokość narwale mogą nurkować?",
+        "answers": ["Do 500 m", "Do 1,000 m", "Do 1,500 m", "Do 2,000 m"],
+        "correct": 2
+    },
+    {
+        "question": "Jak długo narwale mogą przebywać pod wodą?",
+        "answers": ["Do 10 minut", "Do 15 minut", "Do 20 minut", "Do 25 minut"],
+        "correct": 3
+    },
+    {
+        "question": "Jakie zwierzęta polują na narwale?",
+        "answers": ["Rekiny i kaszaloty", "Orki i niedźwiedzie polarne", "Wieloryby i foki", "Delfiny i morsy"],
+        "correct": 1
+    },
+    {
+        "question": "Dlaczego ludność rdzenna Arktyki polowała na narwale?",
+        "answers": ["Dla sportu", "Dla pożywienia i rogów", "Dla tłuszczu i skóry", "Dla kości i mięsa"],
+        "correct": 1
+    },
+    {
+        "question": "W jakim celu oddział WWF w Kanadzie rozpoczął monitoring narwali?",
+        "answers": ["Aby zliczyć populację narwali", "Aby śledzić szlaki narwali", "Aby zrozumieć zachowanie narwali", "Aby chronić narwale przed drapieżnikami"],
+        "correct": 1
+    },
+	{
+        "question": "Na jakim obszarze występuje niedźwiedź polarny?",
+        "answers": ["Antarktyda", "Arktyka", "Alpy", "Andy"],
+        "correct": 1
+    },
+    {
+        "question": "Na jakich terytoriach można spotkać niedźwiedzie polarne?",
+        "answers": ["Kanada, Alaska, Grenlandia, Rosja", "Kanada, Norwegia, Finlandia, Szwecja", "Alaska, Norwegia, Islandia, Finlandia", "Grenlandia, Islandia, Norwegia, Rosja"],
         "correct": 0
     },
     {
-        "question": "Który instrument muzyczny gra się ustami?",
-        "answers": ["Gitara", "Flet", "Skrzypce", "Bęben"],
+        "question": "Czy niedźwiedzie polarne zapadają w sen zimowy?",
+        "answers": ["Tak", "Nie", "Tylko samce", "Tylko samice"],
         "correct": 1
     },
     {
-        "question": "Który z tych stylów muzycznych pochodzi z Jamajki?",
-        "answers": ["Blues", "Jazz", "Reggae", "Rock"],
+        "question": "Na jakie zwierzęta głównie polują niedźwiedzie polarne?",
+        "answers": ["Pingwiny", "Foki", "Ryby", "Kraby"],
+        "correct": 1
+    },
+    {
+        "question": "Jaką wagę mogą osiągnąć samce niedźwiedzi polarnych?",
+        "answers": ["Do 500 kg", "Do 600 kg", "Do 700 kg", "Do 800 kg"],
         "correct": 2
     },
     {
-        "question": "Kto skomponował operę 'Czarodziejski flet'?",
-        "answers": ["Wolfgang Amadeus Mozart", "Giuseppe Verdi", "Ludwig van Beethoven", "Johann Strauss"],
+        "question": "Kiedy młode niedźwiedzie polarne rodzą się?",
+        "answers": ["W październiku i listopadzie", "W listopadzie i grudniu", "W grudniu i styczniu", "W styczniu i lutym"],
+        "correct": 2
+    },
+    {
+        "question": "Ile lat młode niedźwiedzie polarne przebywają z matką?",
+        "answers": ["1 rok", "2 lata", "3 lata", "4 lata"],
+        "correct": 1
+    },
+    {
+        "question": "Z jaką dietą związany jest niedźwiedź polarny?",
+        "answers": ["Głównie roślinożerna", "Głównie mięsożerna", "Mięsożerna i roślinożerna", "Tylko owady"],
+        "correct": 1
+    },
+    {
+        "question": "Kiedy rozdzieliły się linie ewolucyjne niedźwiedzia polarnego i brunatnego?",
+        "answers": ["100 tys. lat temu", "200 tys. lat temu", "300 tys. lat temu", "500 tys. lat temu"],
+        "correct": 3
+    },
+    {
+        "question": "Jakie cechy pomagają niedźwiedziom polarnym przetrwać w Arktyce?",
+        "answers": ["Krótkie łapy i szerokie stopy", "Świetny węch i długa szyja zakończona wąską głową", "Krótkie futro i małe uszy", "Duże oczy i cienka skóra"],
+        "correct": 1
+    },
+    {
+        "question": "Jakie zagrożenia stanowią dla niedźwiedzi polarnych?",
+        "answers": ["Susze i pożary lasów", "Polowania, zanieczyszczenie środowiska i topnienie lodu morskiego", "Epidemie i choroby", "Brak pożywienia i susze"],
+        "correct": 1
+    },
+    {
+        "question": "Kiedy podpisano Międzynarodowe Porozumienie o Ochronie Niedźwiedzi Polarnych?",
+        "answers": ["W 1953 roku", "W 1963 roku", "W 1973 roku", "W 1983 roku"],
+        "correct": 2
+    },
+    {
+        "question": "Jaka technologia jest używana do śledzenia wędrówek niedźwiedzi polarnych?",
+        "answers": ["Kamery termowizyjne", "Drony", "Obroże z lokalizatorem GPS", "Satelity geostacjonarne"],
+        "correct": 2
+    },
+    {
+        "question": "Gdzie polscy naukowcy prowadzą statystyki odwiedzin niedźwiedzi polarnych?",
+        "answers": ["W Polskiej Stacji Polarnej Hornsund na Spitsbergenie", "W Polskiej Stacji Antarktycznej im. H. Arctowskiego", "W Polskiej Stacji Meteorologicznej na Islandii", "W Polskiej Stacji Badawczej na Grenlandii"],
         "correct": 0
     },
     {
-        "question": "Który z tych zespołów jest znany z piosenki 'Bohemian Rhapsody'?",
-        "answers": ["The Beatles", "The Rolling Stones", "Queen", "Pink Floyd"],
+        "question": "Na jakich obszarach występuje lis polarny?",
+        "answers": ["Antarktyda", "Arktyczna tundra", "Alpy", "Andy"],
+        "correct": 1
+    },
+    {
+        "question": "Jaki kolor ma sierść lisa polarnego w zimie?",
+        "answers": ["Brązowy", "Ciemnobrązowy", "Żółty", "Biały"],
+        "correct": 3
+    },
+    {
+        "question": "Jak lis polarny wykorzystuje swoją sierść?",
+        "answers": ["Do odstraszania drapieżników", "Do kamuflażu", "Do zdobywania pożywienia", "Do przyciągania partnera"],
+        "correct": 1
+    },
+    {
+        "question": "Jakie zwierzęta są drapieżnikami lisa polarnego?",
+        "answers": ["Orki", "Pingwiny", "Niedźwiedź polarny, rosomak, orzeł przedni", "Wilki, pumy, rysie"],
         "correct": 2
     },
     {
-        "question": "Jak nazywa się szybki, rytmiczny styl muzyki wywodzący się z Nowego Orleanu?",
-        "answers": ["Blues", "Reggae", "Jazz", "Rock"],
+        "question": "Jaka jest najczęstsza przyczyna śmiertelności lisów polarnych w zimie?",
+        "answers": ["Polowanie przez ludzi", "Choroby", "Głód", "Ataki drapieżników"],
         "correct": 2
     },
     {
-        "question": "Który instrument muzyczny jest największy w orkiestrze?",
-        "answers": ["Skrzypce", "Wiolonczela", "Kontrabas", "Flet"],
+        "question": "Gdzie lisy polarne budują swoje nory?",
+        "answers": ["W jaskiniach", "Na drzewach", "W zaspach śnieżnych", "Pod wodą"],
         "correct": 2
     },
     {
-        "question": "Który z tych zespołów pochodzi z Wielkiej Brytanii?",
-        "answers": ["The Beatles", "Nirvana", "The Beach Boys", "Metallica"],
+        "question": "Kiedy trwa okres godowy lisów polarnych?",
+        "answers": ["Od grudnia do stycznia", "Od lutego do kwietnia", "Od maja do czerwca", "Od sierpnia do września"],
+        "correct": 1
+    },
+    {
+        "question": "Kiedy rodzą się młode lisy polarne?",
+        "answers": ["W marcu lub kwietniu", "W maju lub czerwcu", "W lipcu lub sierpniu", "We wrześniu lub październiku"],
+        "correct": 1
+    },
+    {
+        "question": "Gdzie lisy polarne magazynują nadwyżki żywności?",
+        "answers": ["W norkach w drzewach", "W spiżarniach w norach pod kamieniami lub w dziurach w zmarzlinie", "W wodnych jamach", "W gniazdach na drzewach"],
+        "correct": 1
+    },
+    {
+        "question": "Ile lat żyją przeciętnie lisy polarne?",
+        "answers": ["1-2 lata", "3-4 lata", "5-6 lat", "7-8 lat"],
+        "correct": 1
+    },
+    {
+        "question": "Jak długo żył najstarszy zanotowany lis polarny?",
+        "answers": ["10 lat", "12 lat", "14 lat", "16 lat"],
+        "correct": 3
+    },
+    {
+        "question": "Jak zmiany klimatyczne wpływają na lisy polarne?",
+        "answers": ["Zmniejszają ich terytorium", "Powodują migrację większego i bardziej agresywnego lisa rudego na północ", "Zwiększają dostępność pokarmu", "Wzmacniają ich populację"],
+        "correct": 1
+    },
+	{
+        "question": "Jaki gatunek rekina jest najbardziej odporny na zimno na świecie?",
+        "answers": ["Rekin tygrysi", "Rekin biały", "Rekin młot", "Rekin grenlandzki"],
+        "correct": 3
+    },
+    {
+        "question": "W jakim regionie oceanicznym regularnie występuje rekin grenlandzki?",
+        "answers": ["Ocean Południowy", "Północna część Atlantyku", "Ocean Indyjski", "Morze Karaibskie"],
+        "correct": 1
+    },
+    {
+        "question": "Dlaczego rekin grenlandzki nazywany jest rekinem śpiącym?",
+        "answers": ["Z powodu wyjątkowo powolnego pływania", "Ponieważ śpi przez większość czasu", "Ponieważ żyje w głębinach oceanu", "Z powodu jego hibernacji w zimie"],
         "correct": 0
     },
     {
-        "question": "Kto jest znany z piosenki 'Thriller'?",
-        "answers": ["Elvis Presley", "Michael Jackson", "Prince", "Madonna"],
+        "question": "Jakie rozmiary osiąga rekin grenlandzki?",
+        "answers": ["3,5 m i 500 kg", "4,5 m i 700 kg", "5,5 m i 800 kg", "6,5 m i 1000 kg"],
+        "correct": 3
+    },
+    {
+        "question": "Co znajduje się w diecie rekina grenlandzkiego?",
+        "answers": ["Tylko ryby i małe morskie bezkręgowce", "Wyłącznie roślinność morska", "Różne zwierzęta morskie, koty, psy, konie i renifery", "Tylko plankton i małe ryby"],
+        "correct": 2
+    },
+    {
+        "question": "Dlaczego historycznie polowano na rekiny grenlandzkie?",
+        "answers": ["Ze względu na ich mięso", "Ze względu na ich wątrobę bogatą w olej", "Ze względu na ich skórę", "Ze względu na ich płetwy"],
         "correct": 1
     },
     {
-        "question": "Który instrument muzyczny jest najczęściej używany w muzyce jazzowej?",
-        "answers": ["Gitara", "Saksofon", "Bęben", "Flet"],
-        "correct": 1
+        "question": "Dlaczego ograniczono połowy rekinów grenlandzkich?",
+        "answers": ["Z powodu wyczerpania populacji", "Z powodu ochrony gatunku", "Z powodu konkurencji z tańszymi olejami z wielorybów i ropą naftową", "Z powodu zmiany diety ludzi"],
+        "correct": 2
     },
     {
-        "question": "Jak nazywa się osoba, która pisze teksty piosenek?",
-        "answers": ["Kompozytor", "Tekściarz", "Dyrygent", "Piosenkarz"],
-        "correct": 1
-    },
-    {
-        "question": "Który z tych artystów jest znany z hitu 'Rolling in the Deep'?",
-        "answers": ["Taylor Swift", "Adele", "Beyoncé", "Katy Perry"],
-        "correct": 1
-    },
-    {
-        "question": "Który instrument muzyczny gra się uderzając w struny młoteczkami?",
-        "answers": ["Gitara", "Fortepian", "Skrzypce", "Trąbka"],
-        "correct": 1
+        "question": "Jak obecnie łowi się rekiny grenlandzkie?",
+        "answers": ["Jako główny cel połowów", "Tylko dla sportu", "Jako przyłów", "Nie łowi się ich wcale"],
+        "correct": 2
     }
 ]
